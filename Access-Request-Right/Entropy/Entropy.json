@@ -17,7 +17,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/24/2023 04:03:24",
+  "HeaderLastSavedDateTimeUTC": "07/24/2023 04:03:46",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -60,14 +60,14 @@
     "btnClick_1": 4,
     "Container1": 0,
     "Container2_1": 2,
-    "HeaderContainer1": 0,
+    "HeaderContainer1": 6,
     "Home": 0,
     "Host": 0,
     "Image2_1": 1,
     "Label3_1": 3,
     "Login": 0,
-    "MainSectionContainer1": 0,
-    "ScreenContainer1": 0
+    "MainSectionContainer1": 7,
+    "ScreenContainer1": 5
   },
   "ResourcesJsonIndices": {
     "Image-metin-ozer-hlWeILY_7tw-unsplash": 1,
