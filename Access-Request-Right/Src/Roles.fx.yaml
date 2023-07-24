@@ -85,28 +85,32 @@
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =1
 
+                        Label1 As label:
+                            Text: =""
+                            ZIndex: =1
+
                         Label6 As label:
                             LayoutMinWidth: =100
                             Text: ="ID Role"
                             Width: =200
-                            ZIndex: =1
+                            ZIndex: =2
 
                         Label7 As label:
                             Text: ="Role Name"
                             Width: =230
-                            ZIndex: =2
+                            ZIndex: =3
 
                         Label8 As label:
                             AlignInContainer: =AlignInContainer.Center
                             FillPortions: =1
                             Text: ="Description"
-                            ZIndex: =3
+                            ZIndex: =4
 
                         Label8_1 As label:
                             AlignInContainer: =AlignInContainer.Center
                             FillPortions: =1
                             Text: ="Created Date"
-                            ZIndex: =4
+                            ZIndex: =5
 
                     tableRole As gallery.galleryVertical:
                         DelayItemLoading: =true
@@ -121,7 +125,7 @@
                         Label2 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'Role Name'
-                            X: =202
+                            X: =347
                             ZIndex: =1
 
                         Label3 As label:
@@ -134,6 +138,7 @@
                         Label4 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.idRole
+                            X: =145
                             ZIndex: =3
 
                         Icon2 As icon.Edit:
@@ -155,6 +160,14 @@
                         Label14 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.Description
-                            X: =422
+                            X: =567
                             ZIndex: =6
+
+                        Icon6 As icon.View:
+                            Height: =30
+                            Icon: =Icon.View
+                            OnSelect: =Select(Parent)
+                            Width: =30
+                            X: =44
+                            ZIndex: =7
 
