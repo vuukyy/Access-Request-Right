@@ -10,6 +10,7 @@
     "Name": "Role",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Chủ sở hữu",
+      "cr50a_description": "Description",
       "cr50a_idrole": "idRole",
       "cr50a_role_AsyncOperations": "Công việc Hệ thống",
       "cr50a_role_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",

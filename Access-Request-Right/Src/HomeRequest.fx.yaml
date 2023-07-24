@@ -210,7 +210,7 @@
                             Height: =Parent.Height
                             LayoutHeight: =Parent.Height
                             Order: =10
-                            Text: =ThisItem.'Created By'.cr50a_usersid
+                            Text: =ThisItem.'Created By'.Users
                             Width: =100
                             X: =0
                             Y: =0
@@ -224,7 +224,7 @@
                             Height: =Parent.Height
                             LayoutHeight: =Parent.Height
                             Order: =11
-                            Text: =ThisItem.'Người tạo'.systemuserid
+                            Text: =ThisItem.'Người tạo'.'Người dùng (systemuserid)'
                             Width: =100
                             X: =0
                             Y: =0
@@ -238,7 +238,7 @@
                             Height: =Parent.Height
                             LayoutHeight: =Parent.Height
                             Order: =9
-                            Text: =ThisItem.StatusRequest.cr50a_statusrequestid
+                            Text: =ThisItem.StatusRequest.StatusRequest
                             Width: =100
                             X: =0
                             Y: =0

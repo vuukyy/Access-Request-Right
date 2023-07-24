@@ -86,30 +86,29 @@
                         ZIndex: =1
 
                         Label6 As label:
-                            FillPortions: =1
                             LayoutMinWidth: =100
-                            Text: ="Văn bản"
-                            Width: =100
+                            Text: ="ID Role"
+                            Width: =200
                             ZIndex: =1
 
                         Label7 As label:
-                            FillPortions: =1
-                            Text: ="Văn bản"
+                            Text: ="Role Name"
+                            Width: =230
                             ZIndex: =2
 
                         Label8 As label:
                             AlignInContainer: =AlignInContainer.Center
                             FillPortions: =1
-                            Text: ="Văn bản"
+                            Text: ="Description"
                             ZIndex: =3
 
                         Label8_1 As label:
                             AlignInContainer: =AlignInContainer.Center
                             FillPortions: =1
-                            Text: ="Văn bản"
+                            Text: ="Created Date"
                             ZIndex: =4
 
-                    Gallery3 As gallery.galleryVertical:
+                    tableRole As gallery.galleryVertical:
                         DelayItemLoading: =true
                         Items: =Role
                         Layout: =Layout.Vertical
@@ -122,14 +121,14 @@
                         Label2 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'Role Name'
-                            X: =225
+                            X: =202
                             ZIndex: =1
 
                         Label3 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'Ngày tạo'
                             Width: =182
-                            X: =489
+                            X: =874
                             ZIndex: =2
 
                         Label4 As label:
@@ -142,7 +141,7 @@
                             Icon: =Icon.Edit
                             OnSelect: =EditForm(FormRole);Navigate(NewRole,ScreenTransition.Cover)
                             Width: =30
-                            X: =1100
+                            X: =1205
                             ZIndex: =4
 
                         Icon3 As icon.Trash:
@@ -155,7 +154,7 @@
 
                         Label14 As label:
                             OnSelect: =Select(Parent)
-                            Text: =ThisItem.idRole
-                            X: =777
+                            Text: =ThisItem.Description
+                            X: =422
                             ZIndex: =6
 
