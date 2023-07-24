@@ -2,7 +2,7 @@
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
-        Height: =Parent.Height
+        Height: =768
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =16
@@ -11,7 +11,7 @@
         PaddingLeft: =16
         PaddingRight: =16
         PaddingTop: =16
-        Width: =Parent.Width
+        Width: =1366
         ZIndex: =1
 
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
@@ -38,4 +38,34 @@
             RadiusTopLeft: =8
             RadiusTopRight: =8
             ZIndex: =3
+
+            Container2 As groupContainer.verticalAutoLayoutContainer:
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =1
+
+                Container3 As groupContainer.horizontalAutoLayoutContainer:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    FillPortions: =0
+                    Height: =80
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutJustifyContent: =LayoutJustifyContent.End
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    ZIndex: =1
+
+                    Button1 As button:
+                        BorderThickness: =0
+                        Height: =50
+                        OnSelect: =Navigate(NewRequest,ScreenTransition.Cover)
+                        Text: ="New Request"
+                        ZIndex: =1
 

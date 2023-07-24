@@ -132,6 +132,7 @@
   },
   "ScreenOrder": [
     "Login",
-    "Home"
+    "Home",
+    "NewRequest"
   ]
 }
