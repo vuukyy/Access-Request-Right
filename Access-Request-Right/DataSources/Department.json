@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr50a_departments",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr50a_department",
+    "Name": "Department",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Chủ sở hữu",
+      "cr50a_department_AsyncOperations": "Công việc Hệ thống",
+      "cr50a_department_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
+      "cr50a_department_DuplicateBaseRecord": "Bản ghi Trùng lặp (cr50a_department_DuplicateBaseRecord)",
+      "cr50a_department_DuplicateMatchingRecord": "Bản ghi Trùng lặp (cr50a_department_DuplicateMatchingRecord)",
+      "cr50a_department_MailboxTrackingFolders": "Thư mục Tự động Theo dõi Hộp thư",
+      "cr50a_department_PrincipalObjectAttributeAccesses": "Chia sẻ trường",
+      "cr50a_department_ProcessSession": "Giao dịch quy trình",
+      "cr50a_department_SyncErrors": "Lỗi đồng bộ",
+      "cr50a_Department_Users": "Users",
+      "cr50a_departmentid": "Department",
+      "cr50a_departmentname": "Department Name",
+      "cr50a_iddepartment": "idDepartment",
+      "createdby": "Người tạo",
+      "createdon": "Ngày tạo",
+      "createdonbehalfby": "Người tạo (Đại diện)",
+      "importsequencenumber": "Số Thứ tự Nhập",
+      "modifiedby": "Người Sửa đổi",
+      "modifiedon": "Sửa đổi Vào",
+      "modifiedonbehalfby": "Người Sửa đổi (Đại diện)",
+      "overriddencreatedon": "Ngày tạo Bản ghi",
+      "owningbusinessunit": "Đơn vị Kinh doanh Sở hữu",
+      "owningteam": "Nhóm Sở hữu",
+      "owninguser": "Người dùng Sở hữu",
+      "statecode": "Trạng thái",
+      "statuscode": "Lý do dẫn đến Trạng thái",
+      "timezoneruleversionnumber": "Số phiên bản của quy tắc múi giờ",
+      "utcconversiontimezonecode": "Mã múi giờ chuyển đổi UTC",
+      "versionnumber": "Số phiên bản"
+    },
+    "PreferredName": "Department",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Department (lượt xem)",
+    "Name": "_cr50a_department_views",
+    "RelatedEntityName": "Department",
+    "Type": "ViewInfo",
+    "TrimmedViewName": true,
+    "ViewInfoNameMapping": {
+      "2986266e-9945-4457-ae22-d25f0ddc5757": "Department Không hoạt động",
+      "4c2cc510-b8a3-48cb-b078-65d3fa87ec90": "Dạng xem Tìm kiếm Nâng cao Department",
+      "54627166-5ca8-4a10-99b2-8880a9b07eab": "Dạng xem Liên kết Department",
+      "5a18d04a-4f8e-4c93-b9be-16195305f70c": "Dạng xem Tra cứu Department",
+      "6b73738e-b561-4d0c-8a0f-1af739d70d67": "Department Hiện hoạt"
+    }
+  },
+  {
+    "DisplayName": "Trạng thái (Department)",
+    "Name": "cr50a_department_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Hiện hoạt",
+      "1": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Department"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Department",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lý do dẫn đến Trạng thái (Department)",
+    "Name": "cr50a_department_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Hiện hoạt",
+      "2": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Department"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Department",
+    "Type": "OptionSetInfo"
+  }
+]

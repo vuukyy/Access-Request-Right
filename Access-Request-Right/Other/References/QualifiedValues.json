@@ -43,6 +43,13 @@
       "Values": {
         "Thông tin": "908c8bb4-1be6-43e9-8ffb-a37a6defad71"
       }
+    },
+    {
+      "Kind": "default.cds_cr50a_department_forms",
+      "Namespace": "Department (Biểu mẫu)",
+      "Values": {
+        "Thông tin": "809d42d3-92fe-49f1-8326-f718f5dbdce7"
+      }
     }
   ]
 }

@@ -27,6 +27,24 @@
             RadiusTopRight: =8
             ZIndex: =2
 
+            Image1_1 As image:
+                AlignInContainer: =AlignInContainer.Center
+                Height: =60
+                Image: ='Pizza_Hut_logo.svg'
+                PaddingLeft: =5
+                Width: =60
+                ZIndex: =1
+
+            Label5_1 As label:
+                AlignInContainer: =AlignInContainer.Center
+                FontWeight: =FontWeight.Bold
+                Height: =60
+                PaddingLeft: =10
+                Size: =20
+                Text: ="Access Request Right"
+                Width: =300
+                ZIndex: =2
+
         MainSectionContainer1 As groupContainer.verticalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
             LayoutDirection: =LayoutDirection.Vertical
@@ -56,6 +74,8 @@
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
+                    PaddingLeft: =20
+                    PaddingRight: =20
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0

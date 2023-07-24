@@ -135,6 +135,7 @@
     "Roles",
     "NewRequest",
     "NewRole",
-    "DetailRole"
+    "DetailRole",
+    "User"
   ]
 }

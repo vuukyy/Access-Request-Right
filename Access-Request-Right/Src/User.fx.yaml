@@ -1,0 +1,253 @@
+"User As screen.'tabletAutoLayout_Sidebar_ver1.0'":
+
+    ScreenContainer3 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =16
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer3 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =2
+
+            Image1_2 As image:
+                Height: =60
+                Image: ='Pizza_Hut_logo.svg'
+                PaddingLeft: =5
+                Width: =60
+                ZIndex: =1
+
+            Label5_2 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =60
+                PaddingLeft: =10
+                Size: =20
+                Text: ="Access Request Right"
+                Width: =300
+                ZIndex: =2
+
+        BottomContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(245, 245, 245, 1)
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutGap: =16
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            LayoutWrap: =true
+            ZIndex: =3
+
+            SidebarContainer1 As groupContainer.verticalAutoLayoutContainer:
+                Fill: =RGBA(255, 255, 255, 1)
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =200
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                ZIndex: =4
+
+            MainSectionContainer3 As groupContainer.verticalAutoLayoutContainer:
+                Fill: =RGBA(255, 255, 255, 1)
+                FillPortions: =7
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                ZIndex: =5
+
+                Container2_3 As groupContainer.verticalAutoLayoutContainer:
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =1
+
+                    Container3_2 As groupContainer.horizontalAutoLayoutContainer:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        FillPortions: =0
+                        Height: =80
+                        LayoutAlignItems: =LayoutAlignItems.Center
+                        LayoutJustifyContent: =LayoutJustifyContent.End
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        PaddingLeft: =20
+                        PaddingRight: =20
+                        RadiusBottomLeft: =0
+                        RadiusBottomRight: =0
+                        RadiusTopLeft: =0
+                        RadiusTopRight: =0
+                        ZIndex: =1
+
+                        Button1_2 As button:
+                            BorderThickness: =0
+                            Height: =50
+                            OnSelect: =NewForm(FormRole);Navigate(NewRole,ScreenTransition.Cover)
+                            Text: ="New Role"
+                            ZIndex: =1
+
+                    contRoles_1 As groupContainer.verticalAutoLayoutContainer:
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =2
+
+                        Container9_1 As groupContainer.horizontalAutoLayoutContainer:
+                            FillPortions: =0
+                            Height: =70
+                            LayoutAlignItems: =LayoutAlignItems.Center
+                            LayoutMinHeight: =100
+                            LayoutMinWidth: =250
+                            LayoutMode: =LayoutMode.Auto
+                            ZIndex: =1
+
+                            Label1_1 As label:
+                                Text: =""
+                                Width: =80
+                                ZIndex: =1
+
+                            Label6_1 As label:
+                                FontWeight: =FontWeight.Bold
+                                LayoutMinWidth: =100
+                                Size: =15
+                                Text: ="ID User"
+                                Width: =100
+                                ZIndex: =2
+
+                            Label7_1 As label:
+                                FontWeight: =FontWeight.Bold
+                                Size: =15
+                                Text: ="User Name"
+                                Width: =180
+                                ZIndex: =3
+
+                            Label8_2 As label:
+                                AlignInContainer: =AlignInContainer.Center
+                                FontWeight: =FontWeight.Bold
+                                Size: =15
+                                Text: ="Email"
+                                ZIndex: =4
+
+                            Label8_3 As label:
+                                AlignInContainer: =AlignInContainer.Center
+                                FontWeight: =FontWeight.Bold
+                                Size: =15
+                                Text: ="Department"
+                                ZIndex: =5
+
+                            Label8_5 As label:
+                                AlignInContainer: =AlignInContainer.Center
+                                FontWeight: =FontWeight.Bold
+                                Size: =15
+                                Text: ="Role"
+                                ZIndex: =7
+
+                            Label8_6 As label:
+                                AlignInContainer: =AlignInContainer.Center
+                                FontWeight: =FontWeight.Bold
+                                Size: =15
+                                Text: ="Last Login"
+                                ZIndex: =8
+
+                            Label8_7 As label:
+                                AlignInContainer: =AlignInContainer.Center
+                                FontWeight: =FontWeight.Bold
+                                Size: =15
+                                Text: =""
+                                Width: =70
+                                ZIndex: =9
+
+                        tableRole_1 As gallery.galleryVertical:
+                            DelayItemLoading: =true
+                            Items: =Users
+                            Layout: =Layout.Vertical
+                            LayoutMinHeight: =287
+                            LayoutMinWidth: =320
+                            LoadingSpinner: =LoadingSpinner.Data
+                            TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(80, Self.Width - 60), Min(80, Self.Height - 60))
+                            ZIndex: =3
+
+                            Label2_1 As label:
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.'User Name'
+                                X: =186
+                                Y: =20
+                                ZIndex: =1
+
+                            Label4_1 As label:
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.idUser
+                                Width: =99
+                                X: =75
+                                Y: =20
+                                ZIndex: =3
+
+                            Icon2_1 As icon.Edit:
+                                Height: =30
+                                Icon: =Icon.Edit
+                                OnSelect: =EditForm(FormRole);Navigate(NewRole,ScreenTransition.Cover)
+                                Width: =30
+                                X: =1012
+                                Y: =25
+                                ZIndex: =4
+
+                            Icon3_1 As icon.Trash:
+                                Height: =30
+                                Icon: =Icon.Trash
+                                OnSelect: =Select(Parent)
+                                Width: =30
+                                X: =1053
+                                Y: =25
+                                ZIndex: =5
+
+                            Label14_1 As label:
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.email
+                                Width: =116
+                                X: =368
+                                Y: =20
+                                ZIndex: =6
+
+                            Icon6_1 As icon.View:
+                                Height: =30
+                                Icon: =Icon.View
+                                OnSelect: =Navigate(DetailRole,ScreenTransition.Cover)
+                                Width: =30
+                                X: =28
+                                Y: =25
+                                ZIndex: =7
+
+                            Label3_4 As label:
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.lastLogin
+                                Width: =117
+                                X: =812
+                                Y: =20
+                                ZIndex: =9
+
