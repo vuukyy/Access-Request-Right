@@ -1,5 +1,7 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "SideBar": 7
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
@@ -150,6 +152,7 @@
     "ScreenContainer1": 5,
     "ScreenContainer1_1": 87,
     "ScreenContainer3": 144,
+    "SideBar": 233,
     "SidebarContainer1": 147,
     "SidebarContainer1_1": 153,
     "StarVisible1": 126,
@@ -162,14 +165,14 @@
     "StarVisible20": 121,
     "StatusRequest_Cột1": 23,
     "tableRole": 165,
-    "tableRole_1": 219,
+    "tableUser": 219,
     "type_Cột2": 20,
     "type_DataCard5": 31,
     "User": 143
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/24/2023 09:58:22",
+  "HeaderLastSavedDateTimeUTC": "07/24/2023 10:30:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "10becd22-b5b6-4fb1-bd5d-02d3abdb8aa6": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/450319ae1504407f8e1027f30da7ce8f\"",
@@ -184,8 +187,12 @@
     "metin-ozer-hlWeILY_7tw-unsplash": "https://docserverpwaprodeas.blob.core.windows.net/ff3111ca-1997-4aa1-9230-41fcdf1d8a5f-1/resource/Assets0Images07418f11e-23e8-44ce-83b9-fb2838ea4126.jpg?sv=2018-03-28&sr=b&sig=KMkJKpY6x1FgyTq5uzhgL9oq40JIey5vpMHPpZYzbAg%3D&spr=https&se=2023-07-25T08%3A30%3A24Z&sp=r",
     "Pizza_Hut_logo.svg": "https://docserverpwaprodeas.blob.core.windows.net/ff3111ca-1997-4aa1-9230-41fcdf1d8a5f-1/resource/59d736b9-b0eb-49b5-82c5-52a948100450.png?sv=2018-03-28&sr=b&sig=uoVV3LZDbE4Xy%2BMRaFj%2Fbibm2IOmXGZEWUeN7lI7Mzo%3D&spr=https&se=2023-07-25T08%3A36%3A44Z&sp=r"
   },
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "OrderComponentMetadata": {
+    "38406b6603894a94bfc233f1a989a40e": 0
+  },
+  "OrderComponentTemplate": {
+    "38406b6603894a94bfc233f1a989a40e": 0
+  },
   "OrderDataSource": {
     "Bản ghi Trùng lặp": 52,
     "Bản ghi Trùng lặp\\default.cds_duplicaterecord_views": 46,
@@ -412,6 +419,7 @@
     "ScreenContainer1": {},
     "ScreenContainer1_1": {},
     "ScreenContainer3": {},
+    "SideBar": {},
     "SidebarContainer1": {},
     "SidebarContainer1_1": {},
     "StarVisible1": {},
@@ -424,7 +432,7 @@
     "StarVisible20": {},
     "StatusRequest_Cột1": {},
     "tableRole": {},
-    "tableRole_1": {},
+    "tableUser": {},
     "type_Cột2": {},
     "type_DataCard5": {},
     "User": {}
@@ -521,11 +529,11 @@
     "Icon1_4": 110,
     "Icon1_5": 113,
     "Icon2": 50,
-    "Icon2_1": 154,
+    "Icon2_1": 153,
     "Icon3": 51,
-    "Icon3_1": 155,
+    "Icon3_1": 154,
     "Icon6": 49,
-    "Icon6_1": 153,
+    "Icon6_1": 152,
     "idRole_DataCard3": 95,
     "idRole_DataCard4": 116,
     "Image1": 28,
@@ -541,7 +549,7 @@
     "Label2_1": 149,
     "Label3": 48,
     "Label3_1": 3,
-    "Label3_4": 152,
+    "Label3_4": 151,
     "Label4": 45,
     "Label4_1": 148,
     "Label5": 29,
@@ -580,6 +588,7 @@
     "ScreenContainer1": 5,
     "ScreenContainer1_1": 26,
     "ScreenContainer3": 126,
+    "SideBar": 0,
     "SidebarContainer1": 131,
     "SidebarContainer1_1": 31,
     "StarVisible1": 104,
@@ -592,7 +601,7 @@
     "StarVisible20": 99,
     "StatusRequest_Cột1": 21,
     "tableRole": 43,
-    "tableRole_1": 146,
+    "tableUser": 146,
     "type_Cột2": 15,
     "type_DataCard5": 58,
     "User": 0
@@ -619,7 +628,7 @@
       "groupContainer": 36,
       "icon": 18,
       "image": 4,
-      "label": 80,
+      "label": 81,
       "rectangle": 3,
       "screen": 6,
       "text": 5,

@@ -183,7 +183,7 @@
                                 Width: =70
                                 ZIndex: =9
 
-                        tableRole_1 As gallery.galleryVertical:
+                        tableUser As gallery.galleryVertical:
                             DelayItemLoading: =true
                             Items: =Users
                             Layout: =Layout.Vertical

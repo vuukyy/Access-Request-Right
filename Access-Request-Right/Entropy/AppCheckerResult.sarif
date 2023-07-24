@@ -2704,17 +2704,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.TabIndex"
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.TabIndex"
                 }
               ],
               "properties": {
                 "member": "TabIndex",
                 "module": "User",
-                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1"
+                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.TabIndex",
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.TabIndex",
                   "relativeAddress": 0
                 }
               }
@@ -2734,17 +2734,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.AccessibleLabel"
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.AccessibleLabel"
                 }
               ],
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "User",
-                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1"
+                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.AccessibleLabel",
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.AccessibleLabel",
                   "relativeAddress": 0
                 }
               }
@@ -2764,17 +2764,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon6_1.AccessibleLabel"
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon6_1.AccessibleLabel"
                 }
               ],
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "User",
-                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon6_1"
+                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon6_1"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon6_1.AccessibleLabel",
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon6_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               }
@@ -2794,17 +2794,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon6_1.TabIndex"
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon6_1.TabIndex"
                 }
               ],
               "properties": {
                 "member": "TabIndex",
                 "module": "User",
-                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon6_1"
+                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon6_1"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon6_1.TabIndex",
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon6_1.TabIndex",
                   "relativeAddress": 0
                 }
               }
@@ -2824,17 +2824,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon2_1.AccessibleLabel"
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon2_1.AccessibleLabel"
                 }
               ],
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "User",
-                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon2_1"
+                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon2_1"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon2_1.AccessibleLabel",
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon2_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               }
@@ -2854,17 +2854,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon2_1.TabIndex"
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon2_1.TabIndex"
                 }
               ],
               "properties": {
                 "member": "TabIndex",
                 "module": "User",
-                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon2_1"
+                "type": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon2_1"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableRole_1.Icon2_1.TabIndex",
+                  "fullyQualifiedName": "User.ScreenContainer3.BottomContainer1.MainSectionContainer3.Container2_3.contRoles_1.tableUser.Icon2_1.TabIndex",
                   "relativeAddress": 0
                 }
               }
