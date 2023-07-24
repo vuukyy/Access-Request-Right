@@ -41,15 +41,17 @@ NewRequest As screen:
 
                 type_DataCard5 As typedDataCard.comboBoxOptionSetMultiEditCard:
                     BorderStyle: =BorderStyle.Solid
-                    DataField: ="cr50a_type"
+                    DataField: ="type"
                     Default: =ThisItem.type
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.Edit
                     DisplayName: =DataSourceInfo([@Request],DataSourceInfo.DisplayName,"cr50a_type")
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =50
                     Required: =false
                     Update: =DataCardValue29.SelectedItems.Value
+                    Visible: =true
                     Width: =455
+                    WidthFit: =true
                     X: =0
                     Y: =0
                     ZIndex: =1
@@ -67,12 +69,12 @@ NewRequest As screen:
                     DataCardValue29 As combobox:
                         BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                         DefaultSelectedItems: =Parent.Default
-                        DisplayFields: =["Value"]
+                        DisplayFields: =ThisItem.type
                         DisplayMode: =Parent.DisplayMode
                         IsSearchable: =false
-                        Items: =Choices(Option)
+                        Items: =ThisItem.type
                         PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                        SearchFields: =["Value"]
+                        SearchFields: =ThisItem.type
                         SearchItems: =[]
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60

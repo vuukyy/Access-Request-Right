@@ -1,0 +1,21 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "duplicaterecords",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "duplicaterecord",
+    "Name": "Bản ghi Trùng lặp",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_baserecordid_value": "ID Bản ghi Cơ sở",
+      "_duplicaterecordid_value": "ID Bản ghi Trùng lặp",
+      "asyncoperationid": "Công việc Hệ thống",
+      "createdon": "CreatedOn",
+      "duplicateid": "DuplicateId",
+      "duplicateruleid": "DuplicateRuleId"
+    },
+    "PreferredName": "Bản ghi Trùng lặp",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

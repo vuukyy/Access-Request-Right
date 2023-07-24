@@ -1,0 +1,97 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr50a_statusrequests",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr50a_statusrequest",
+    "Name": "StatusRequest",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Chủ sở hữu",
+      "cr50a_Request__Status": "Request",
+      "cr50a_statusname": "Status Name",
+      "cr50a_statusrequest_AsyncOperations": "Công việc Hệ thống",
+      "cr50a_statusrequest_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
+      "cr50a_statusrequest_DuplicateBaseRecord": "Bản ghi Trùng lặp (cr50a_statusrequest_DuplicateBaseRecord)",
+      "cr50a_statusrequest_DuplicateMatchingRecord": "Bản ghi Trùng lặp (cr50a_statusrequest_DuplicateMatchingRecord)",
+      "cr50a_statusrequest_MailboxTrackingFolders": "Thư mục Tự động Theo dõi Hộp thư",
+      "cr50a_statusrequest_PrincipalObjectAttributeAccesses": "Chia sẻ trường",
+      "cr50a_statusrequest_ProcessSession": "Giao dịch quy trình",
+      "cr50a_statusrequest_SyncErrors": "Lỗi đồng bộ",
+      "cr50a_statusrequestid": "StatusRequest",
+      "createdby": "Người tạo",
+      "createdon": "Ngày tạo",
+      "createdonbehalfby": "Người tạo (Đại diện)",
+      "importsequencenumber": "Số Thứ tự Nhập",
+      "modifiedby": "Người Sửa đổi",
+      "modifiedon": "Sửa đổi Vào",
+      "modifiedonbehalfby": "Người Sửa đổi (Đại diện)",
+      "overriddencreatedon": "Ngày tạo Bản ghi",
+      "owningbusinessunit": "Đơn vị Kinh doanh Sở hữu",
+      "owningteam": "Nhóm Sở hữu",
+      "owninguser": "Người dùng Sở hữu",
+      "statecode": "Trạng thái",
+      "statuscode": "Lý do dẫn đến Trạng thái",
+      "timezoneruleversionnumber": "Số phiên bản của quy tắc múi giờ",
+      "utcconversiontimezonecode": "Mã múi giờ chuyển đổi UTC",
+      "versionnumber": "Số phiên bản"
+    },
+    "PreferredName": "StatusRequest",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "StatusRequest (lượt xem)",
+    "Name": "_cr50a_statusrequest_views",
+    "RelatedEntityName": "StatusRequest",
+    "Type": "ViewInfo",
+    "TrimmedViewName": true,
+    "ViewInfoNameMapping": {
+      "39170b80-6b1a-4bdc-a6c6-2cf94781cfb7": "Dạng xem Liên kết StatusRequest",
+      "97724bc7-6353-47ce-ad88-954a968beddf": "Dạng xem Tìm kiếm Nâng cao StatusRequest",
+      "b2a64e1c-be06-468b-8493-354c168ace1b": "Dạng xem Tra cứu StatusRequest",
+      "c87dd193-a07e-4d8e-b553-1f5f718ea193": "StatusRequest Không hoạt động",
+      "fa1d930c-ea8e-4712-b601-47e883298c44": "StatusRequest Hiện hoạt"
+    }
+  },
+  {
+    "DisplayName": "Trạng thái (StatusRequest)",
+    "Name": "cr50a_statusrequest_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Hiện hoạt",
+      "1": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "StatusRequest"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "StatusRequest",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lý do dẫn đến Trạng thái (StatusRequest)",
+    "Name": "cr50a_statusrequest_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Hiện hoạt",
+      "2": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "StatusRequest"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "StatusRequest",
+    "Type": "OptionSetInfo"
+  }
+]

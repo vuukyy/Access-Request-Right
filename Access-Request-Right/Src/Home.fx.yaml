@@ -65,7 +65,182 @@
                     Button1 As button:
                         BorderThickness: =0
                         Height: =50
-                        OnSelect: =Navigate(NewRequest,ScreenTransition.Cover)
+                        OnSelect: =NewForm(Form2);Navigate(NewRequest,ScreenTransition.Cover)
                         Text: ="New Request"
                         ZIndex: =1
+
+                Container8 As groupContainer.verticalAutoLayoutContainer:
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =2
+
+                    DataTable3 As dataTable.datatable:
+                        BorderStyle: =BorderStyle.Solid
+                        DisplayMode: =DisplayMode.Edit
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =500
+                        Items: =Request
+                        LayoutMinHeight: =250
+                        LayoutMinWidth: =400
+                        Width: =800
+                        X: =0
+                        Y: =0
+                        ZIndex: =2
+
+                        "'Ngày tạo_Cột2' As dataTableColumn.dateTimeColumn":
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="Ngày tạo"
+                            FieldName: ="createdon"
+                            FieldVariantName: ="dateTimeColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =12
+                            Text: =Text(ThisItem.'Ngày tạo',DateTimeFormat.LongDateTime)
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =6
+
+                        "'Ngày tạo Bản ghi_Cột2' As dataTableColumn.dateTimeColumn":
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="Ngày tạo Bản ghi"
+                            FieldName: ="overriddencreatedon"
+                            FieldVariantName: ="dateTimeColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =13
+                            Text: =Text(ThisItem.'Ngày tạo Bản ghi',DateTimeFormat.LongDateTime)
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =7
+
+                        comment_Cột2 As dataTableColumn.textualColumn:
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="comment"
+                            FieldName: ="cr50a_comment"
+                            FieldVariantName: ="textualColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =8
+                            Text: =ThisItem.comment
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =8
+
+                        attachFile_Cột2 As dataTableColumn.textualColumn:
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="attachFile"
+                            FieldName: ="cr50a_attachfile"
+                            FieldVariantName: ="textualColumn"
+                            Height: =Parent.Height
+                            IsHyperlink: =false
+                            LayoutHeight: =Parent.Height
+                            Order: =7
+                            Text: =
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =9
+
+                        description_Cột2 As dataTableColumn.textualColumn:
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="description"
+                            FieldName: ="cr50a_description"
+                            FieldVariantName: ="textualColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =6
+                            Text: =ThisItem.description
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =10
+
+                        permission_Cột2 As dataTableColumn.textualColumn:
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="permission"
+                            FieldName: ="cr50a_permission"
+                            FieldVariantName: ="textualColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =4
+                            Text: =
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =11
+
+                        reason_Cột2 As dataTableColumn.textualColumn:
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="reason"
+                            FieldName: ="cr50a_reason"
+                            FieldVariantName: ="textualColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =5
+                            Text: =ThisItem.reason
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =12
+
+                        type_Cột2 As dataTableColumn.textualColumn:
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="type"
+                            FieldName: ="cr50a_type"
+                            FieldVariantName: ="textualColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =2
+                            Text: =
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =15
+
+                        "'Created By_Cột1' As dataTableColumn.complexTypeColumn":
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="Created By"
+                            FieldName: ="cr50a_CreatedBy"
+                            FieldVariantName: ="complexTypeColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =10
+                            Text: =ThisItem.'Created By'.cr50a_usersid
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =16
+
+                        "'Người tạo_Cột1' As dataTableColumn.complexTypeColumn":
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="Người tạo"
+                            FieldName: ="createdby"
+                            FieldVariantName: ="complexTypeColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =11
+                            Text: =ThisItem.'Người tạo'.systemuserid
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =17
+
+                        StatusRequest_Cột1 As dataTableColumn.complexTypeColumn:
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="StatusRequest"
+                            FieldName: ="cr50a_StatusRequest"
+                            FieldVariantName: ="complexTypeColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =9
+                            Text: =ThisItem.StatusRequest.cr50a_statusrequestid
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =18
 
