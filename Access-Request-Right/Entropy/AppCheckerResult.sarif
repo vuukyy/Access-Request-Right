@@ -10,7 +10,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -22,7 +22,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -34,7 +34,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -46,7 +46,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -58,7 +58,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -70,7 +70,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -82,7 +82,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -94,7 +94,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -106,7 +106,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -118,7 +118,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -130,7 +130,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -142,7 +142,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -154,7 +154,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -166,7 +166,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -178,7 +178,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -190,7 +190,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -202,7 +202,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -214,7 +214,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -226,7 +226,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -238,7 +238,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -250,7 +250,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -262,7 +262,7 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -274,7 +274,355 @@
             {
               "associatedRule": {
                 "id": "app-InefficientDelayLoading",
-                "index": 1
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Đã xảy ra lỗi khi chạy quy tắc app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
               },
               "descriptor": {
                 "id": "app-InefficientDelayLoading"
@@ -292,17 +640,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "NewRequest.Container4.Container7.Dropdown1.AccessibleLabel"
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.comment_DataCard1.DataCardValue3.AccessibleLabel"
                 }
               ],
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "NewRequest",
-                "type": "NewRequest.Container4.Container7.Dropdown1"
+                "type": "NewRequest.Container4.Container7.Form1.comment_DataCard1.DataCardValue3"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "NewRequest.Container4.Container7.Dropdown1.AccessibleLabel",
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.comment_DataCard1.DataCardValue3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               }
@@ -316,6 +664,186 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.attachFile_DataCard1.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "NewRequest",
+                "type": "NewRequest.Container4.Container7.Form1.attachFile_DataCard1.DataCardValue4"
+              },
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.attachFile_DataCard1.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.description_DataCard1.DataCardValue5.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "NewRequest",
+                "type": "NewRequest.Container4.Container7.Form1.description_DataCard1.DataCardValue5"
+              },
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.description_DataCard1.DataCardValue5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.permission_DataCard1.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "NewRequest",
+                "type": "NewRequest.Container4.Container7.Form1.permission_DataCard1.DataCardValue6"
+              },
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.permission_DataCard1.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.reason_DataCard1.DataCardValue7.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "NewRequest",
+                "type": "NewRequest.Container4.Container7.Form1.reason_DataCard1.DataCardValue7"
+              },
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.reason_DataCard1.DataCardValue7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.type_DataCard1.DataCardValue10.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "NewRequest",
+                "type": "NewRequest.Container4.Container7.Form1.type_DataCard1.DataCardValue10"
+              },
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "NewRequest.Container4.Container7.Form1.type_DataCard1.DataCardValue10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Request"
+                }
+              ],
+              "properties": {
+                "member": "Request",
+                "module": "App",
+                "type": "App"
+              },
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Request",
+                  "relativeAddress": 0
+                }
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-NotOfflineEnabledTable",
+          "ruleIndex": 1
         }
       ],
       "tool": {
@@ -338,6 +866,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "app-NotOfflineEnabledTable",
+              "messageStrings": {
+                "issue": {
+                  "text": "Bảng không được cấu hình để hỗ trợ ngoại tuyến cho thiết bị di động."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Trong phần \"Tùy chọn nâng cao\" cho Thuộc tính của bảng, hãy bật tùy chọn \"Bật để dùng ngoại tuyến\"."
+                ],
+                "level": "Medium",
+                "primaryCategory": "offline",
+                "whyFix": null
               }
             },
             {

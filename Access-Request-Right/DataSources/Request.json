@@ -1,0 +1,154 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr50a_requests",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr50a_request",
+    "MaxGetRowsCount": 500,
+    "Name": "Request",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Chủ sở hữu",
+      "cr50a_attachfile": "attachFile",
+      "cr50a_comment": "comment",
+      "cr50a_CreatedBy": "Created By",
+      "cr50a_description": "description",
+      "cr50a_idrequest": "idRequest",
+      "cr50a_permission": "permission",
+      "cr50a_reason": "reason",
+      "cr50a_reasonreject": "reasonReject",
+      "cr50a_request_AsyncOperations": "Công việc Hệ thống",
+      "cr50a_request_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
+      "cr50a_request_DuplicateBaseRecord": "Bản ghi Trùng lặp (cr50a_request_DuplicateBaseRecord)",
+      "cr50a_request_DuplicateMatchingRecord": "Bản ghi Trùng lặp (cr50a_request_DuplicateMatchingRecord)",
+      "cr50a_request_FileAttachments": "FileAttachments",
+      "cr50a_request_MailboxTrackingFolders": "Thư mục Tự động Theo dõi Hộp thư",
+      "cr50a_request_PrincipalObjectAttributeAccesses": "Chia sẻ trường",
+      "cr50a_request_ProcessSession": "Giao dịch quy trình",
+      "cr50a_request_SyncErrors": "Lỗi đồng bộ",
+      "cr50a_Request_Users": "Users",
+      "cr50a_requestid": "Request",
+      "cr50a_requestname": "Request Name",
+      "cr50a_status": "status",
+      "cr50a_StatusRequest": "StatusRequest",
+      "cr50a_type": "type",
+      "createdby": "Người tạo",
+      "createdon": "Ngày tạo",
+      "createdonbehalfby": "Người tạo (Đại diện)",
+      "importsequencenumber": "Số Thứ tự Nhập",
+      "modifiedby": "Người Sửa đổi",
+      "modifiedon": "Sửa đổi Vào",
+      "modifiedonbehalfby": "Người Sửa đổi (Đại diện)",
+      "overriddencreatedon": "Ngày tạo Bản ghi",
+      "owningbusinessunit": "Đơn vị Kinh doanh Sở hữu",
+      "owningteam": "Nhóm Sở hữu",
+      "owninguser": "Người dùng Sở hữu",
+      "statecode": "Trạng thái",
+      "statuscode": "Lý do dẫn đến Trạng thái",
+      "timezoneruleversionnumber": "Số phiên bản của quy tắc múi giờ",
+      "utcconversiontimezonecode": "Mã múi giờ chuyển đổi UTC",
+      "versionnumber": "Số phiên bản"
+    },
+    "PreferredName": "Request",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Request (lượt xem)",
+    "Name": "_cr50a_request_views",
+    "RelatedEntityName": "Request",
+    "Type": "ViewInfo",
+    "TrimmedViewName": true,
+    "ViewInfoNameMapping": {
+      "3c7151b5-49f2-4833-874e-05c159a8ba62": "Request Hiện hoạt",
+      "5ddd3073-0159-49f6-8687-07e13bc1ee13": "Dạng xem Tìm kiếm Nâng cao Request",
+      "892762d4-41d0-40dd-83e9-2a56f849851a": "Request Không hoạt động",
+      "abaf1dad-6cca-48c8-a828-7b84cc7f1fd9": "Dạng xem Tra cứu Request",
+      "d3003613-3861-45e1-9ede-f1e9d0dc254a": "Dạng xem Liên kết Request"
+    }
+  },
+  {
+    "DisplayName": "Option",
+    "Name": "cr50a_option",
+    "OptionSetInfoNameMapping": {
+      "700230000": "Access Report",
+      "700230001": "Access Folder",
+      "700230002": "Access Source",
+      "700230003": "Install Software"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr50a_type",
+        "OptionSetReferenceEntityName": "Request"
+      }
+    },
+    "OptionSetTypeKey": "MultiSelectPicklistType",
+    "RelatedColumnInvariantName": "cr50a_type",
+    "RelatedEntityName": "Request",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Trạng thái (Request)",
+    "Name": "cr50a_request_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Hiện hoạt",
+      "1": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Request"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Request",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lý do dẫn đến Trạng thái (Request)",
+    "Name": "cr50a_request_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Hiện hoạt",
+      "2": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Request"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Request",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Request Permission",
+    "Name": "cr50a_requestpermission",
+    "OptionSetInfoNameMapping": {
+      "700230000": "View",
+      "700230001": "Edit/Create",
+      "700230002": "Delete",
+      "700230003": "Other"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr50a_permission",
+        "OptionSetReferenceEntityName": "Request"
+      }
+    },
+    "OptionSetTypeKey": "MultiSelectPicklistType",
+    "RelatedColumnInvariantName": "cr50a_permission",
+    "RelatedEntityName": "Request",
+    "Type": "OptionSetInfo"
+  }
+]
