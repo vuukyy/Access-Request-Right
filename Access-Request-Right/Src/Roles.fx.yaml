@@ -90,12 +90,16 @@
                             ZIndex: =1
 
                         Label6 As label:
+                            FontWeight: =FontWeight.Bold
                             LayoutMinWidth: =100
+                            Size: =15
                             Text: ="ID Role"
                             Width: =200
                             ZIndex: =2
 
                         Label7 As label:
+                            FontWeight: =FontWeight.Bold
+                            Size: =15
                             Text: ="Role Name"
                             Width: =230
                             ZIndex: =3
@@ -103,18 +107,22 @@
                         Label8 As label:
                             AlignInContainer: =AlignInContainer.Center
                             FillPortions: =1
+                            FontWeight: =FontWeight.Bold
+                            Size: =15
                             Text: ="Description"
                             ZIndex: =4
 
                         Label8_1 As label:
                             AlignInContainer: =AlignInContainer.Center
                             FillPortions: =1
+                            FontWeight: =FontWeight.Bold
+                            Size: =15
                             Text: ="Created Date"
                             ZIndex: =5
 
                     tableRole As gallery.galleryVertical:
                         DelayItemLoading: =true
-                        Items: =Role
+                        Items: =SortByColumns(Role,"cr50a_idrole",SortOrder.Ascending)
                         Layout: =Layout.Vertical
                         LayoutMinHeight: =287
                         LayoutMinWidth: =320
@@ -125,20 +133,23 @@
                         Label2 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'Role Name'
-                            X: =347
+                            X: =348
+                            Y: =20
                             ZIndex: =1
 
                         Label3 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.'Ngày tạo'
                             Width: =182
-                            X: =874
+                            X: =958
+                            Y: =20
                             ZIndex: =2
 
                         Label4 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.idRole
-                            X: =145
+                            X: =148
+                            Y: =20
                             ZIndex: =3
 
                         Icon2 As icon.Edit:
@@ -146,7 +157,8 @@
                             Icon: =Icon.Edit
                             OnSelect: =EditForm(FormRole);Navigate(NewRole,ScreenTransition.Cover)
                             Width: =30
-                            X: =1205
+                            X: =1206
+                            Y: =25
                             ZIndex: =4
 
                         Icon3 As icon.Trash:
@@ -154,13 +166,16 @@
                             Icon: =Icon.Trash
                             OnSelect: =Select(Parent)
                             Width: =30
-                            X: =1250
+                            X: =1251
+                            Y: =25
                             ZIndex: =5
 
                         Label14 As label:
                             OnSelect: =Select(Parent)
                             Text: =ThisItem.Description
-                            X: =567
+                            Width: =339
+                            X: =582
+                            Y: =20
                             ZIndex: =6
 
                         Icon6 As icon.View:
@@ -168,6 +183,7 @@
                             Icon: =Icon.View
                             OnSelect: =Navigate(DetailRole,ScreenTransition.Cover)
                             Width: =30
-                            X: =44
+                            X: =42
+                            Y: =20
                             ZIndex: =7
 
