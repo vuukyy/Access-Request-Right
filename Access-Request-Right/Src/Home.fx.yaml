@@ -91,7 +91,7 @@
 
                         "'Ngày tạo_Cột2' As dataTableColumn.dateTimeColumn":
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="Ngày tạo"
+                            FieldDisplayName: ="Created Date"
                             FieldName: ="createdon"
                             FieldVariantName: ="dateTimeColumn"
                             Height: =Parent.Height
@@ -119,7 +119,7 @@
 
                         comment_Cột2 As dataTableColumn.textualColumn:
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="comment"
+                            FieldDisplayName: ="Comment"
                             FieldName: ="cr50a_comment"
                             FieldVariantName: ="textualColumn"
                             Height: =Parent.Height
@@ -133,7 +133,7 @@
 
                         attachFile_Cột2 As dataTableColumn.textualColumn:
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="attachFile"
+                            FieldDisplayName: ="File"
                             FieldName: ="cr50a_attachfile"
                             FieldVariantName: ="textualColumn"
                             Height: =Parent.Height
@@ -148,7 +148,7 @@
 
                         description_Cột2 As dataTableColumn.textualColumn:
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="description"
+                            FieldDisplayName: ="Description"
                             FieldName: ="cr50a_description"
                             FieldVariantName: ="textualColumn"
                             Height: =Parent.Height
@@ -162,7 +162,7 @@
 
                         permission_Cột2 As dataTableColumn.textualColumn:
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="permission"
+                            FieldDisplayName: ="Permission"
                             FieldName: ="cr50a_permission"
                             FieldVariantName: ="textualColumn"
                             Height: =Parent.Height
@@ -176,7 +176,7 @@
 
                         reason_Cột2 As dataTableColumn.textualColumn:
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="reason"
+                            FieldDisplayName: ="Reason"
                             FieldName: ="cr50a_reason"
                             FieldVariantName: ="textualColumn"
                             Height: =Parent.Height
@@ -190,7 +190,7 @@
 
                         type_Cột2 As dataTableColumn.textualColumn:
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="type"
+                            FieldDisplayName: ="Type"
                             FieldName: ="cr50a_type"
                             FieldVariantName: ="textualColumn"
                             Height: =Parent.Height
@@ -232,7 +232,7 @@
 
                         StatusRequest_Cột1 As dataTableColumn.complexTypeColumn:
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="StatusRequest"
+                            FieldDisplayName: ="Status"
                             FieldName: ="cr50a_StatusRequest"
                             FieldVariantName: ="complexTypeColumn"
                             Height: =Parent.Height
