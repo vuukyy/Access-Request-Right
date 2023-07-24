@@ -91,12 +91,12 @@
 
                         "'Role Name_Cột2' As dataTableColumn.textualColumn":
                             DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="Role Name"
+                            FieldDisplayName: ="Name"
                             FieldName: ="cr50a_rolename"
                             FieldVariantName: ="textualColumn"
                             Height: =Parent.Height
                             LayoutHeight: =Parent.Height
-                            Order: =1
+                            Order: =2
                             Text: =ThisItem.'Role Name'
                             Width: =100
                             X: =0
@@ -110,10 +110,24 @@
                             FieldVariantName: ="dateTimeColumn"
                             Height: =Parent.Height
                             LayoutHeight: =Parent.Height
-                            Order: =2
+                            Order: =3
                             Text: =Text(ThisItem.'Ngày tạo',DateTimeFormat.LongDateTime)
                             Width: =100
                             X: =0
                             Y: =0
                             ZIndex: =5
+
+                        idRole_Cột1 As dataTableColumn.textualColumn:
+                            DisplayMode: =DisplayMode.Edit
+                            FieldDisplayName: ="Role"
+                            FieldName: ="cr50a_idrole"
+                            FieldVariantName: ="textualColumn"
+                            Height: =Parent.Height
+                            LayoutHeight: =Parent.Height
+                            Order: =1
+                            Text: =ThisItem.idRole
+                            Width: =100
+                            X: =0
+                            Y: =0
+                            ZIndex: =6
 
