@@ -43,6 +43,7 @@ NewRole As screen:
 
             FormRole As form:
                 DataSource: =Role
+                Item: =tableRole.Selected
                 LayoutMinHeight: =250
                 LayoutMinWidth: =400
                 NumberOfColumns: =1

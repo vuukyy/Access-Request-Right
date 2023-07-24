@@ -49,6 +49,7 @@ DetailRole As screen:
 
             FormViewer1 As formViewer:
                 DataSource: =Role
+                Item: =tableRole.Selected
                 LayoutMinHeight: =250
                 LayoutMinWidth: =400
                 NumberOfColumns: =1
@@ -90,12 +91,6 @@ DetailRole As screen:
                         X: =30
                         Y: =DataCardKey7.Y + DataCardKey7.Height + 5
                         ZIndex: =2
-
-                    Label5 As label:
-                        Text: =Parent.Default
-                        X: =40
-                        Y: =40
-                        ZIndex: =3
 
                 Description_DataCard2 As typedDataCard.textualViewCard:
                     BorderStyle: =BorderStyle.Solid
@@ -176,10 +171,4 @@ DetailRole As screen:
                         X: =30
                         Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                         ZIndex: =2
-
-                    Label9 As label:
-                        Text: =Parent.Default
-                        X: =40
-                        Y: =40
-                        ZIndex: =3
 

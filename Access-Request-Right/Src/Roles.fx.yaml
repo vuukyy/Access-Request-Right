@@ -166,7 +166,7 @@
                         Icon6 As icon.View:
                             Height: =30
                             Icon: =Icon.View
-                            OnSelect: =Select(Parent)
+                            OnSelect: =Navigate(DetailRole,ScreenTransition.Cover)
                             Width: =30
                             X: =44
                             ZIndex: =7
