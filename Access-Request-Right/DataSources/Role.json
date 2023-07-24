@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr50a_roles",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr50a_role",
+    "Name": "Role",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Chủ sở hữu",
+      "cr50a_idrole": "idRole",
+      "cr50a_role_AsyncOperations": "Công việc Hệ thống",
+      "cr50a_role_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
+      "cr50a_role_DuplicateBaseRecord": "Bản ghi Trùng lặp (cr50a_role_DuplicateBaseRecord)",
+      "cr50a_role_DuplicateMatchingRecord": "Bản ghi Trùng lặp (cr50a_role_DuplicateMatchingRecord)",
+      "cr50a_role_MailboxTrackingFolders": "Thư mục Tự động Theo dõi Hộp thư",
+      "cr50a_role_PrincipalObjectAttributeAccesses": "Chia sẻ trường",
+      "cr50a_role_ProcessSession": "Giao dịch quy trình",
+      "cr50a_role_SyncErrors": "Lỗi đồng bộ",
+      "cr50a_roleid": "Role",
+      "cr50a_rolename": "Role Name",
+      "cr50a_Users": "Users",
+      "createdby": "Người tạo",
+      "createdon": "Ngày tạo",
+      "createdonbehalfby": "Người tạo (Đại diện)",
+      "importsequencenumber": "Số Thứ tự Nhập",
+      "modifiedby": "Người Sửa đổi",
+      "modifiedon": "Sửa đổi Vào",
+      "modifiedonbehalfby": "Người Sửa đổi (Đại diện)",
+      "overriddencreatedon": "Ngày tạo Bản ghi",
+      "owningbusinessunit": "Đơn vị Kinh doanh Sở hữu",
+      "owningteam": "Nhóm Sở hữu",
+      "owninguser": "Người dùng Sở hữu",
+      "statecode": "Trạng thái",
+      "statuscode": "Lý do dẫn đến Trạng thái",
+      "timezoneruleversionnumber": "Số phiên bản của quy tắc múi giờ",
+      "utcconversiontimezonecode": "Mã múi giờ chuyển đổi UTC",
+      "versionnumber": "Số phiên bản"
+    },
+    "PreferredName": "Role",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Role (lượt xem)",
+    "Name": "_cr50a_role_views",
+    "RelatedEntityName": "Role",
+    "Type": "ViewInfo",
+    "TrimmedViewName": true,
+    "ViewInfoNameMapping": {
+      "4295e9ca-b891-4431-9423-c794d99906e1": "Dạng xem Tra cứu Role",
+      "486d1d6c-7728-4b23-95d8-ede4f3934ecc": "Dạng xem Liên kết Role",
+      "93cc2ccb-7839-45df-8143-b5ddda9cce04": "Dạng xem Tìm kiếm Nâng cao Role",
+      "9850b191-f7c0-452a-be25-2dbec14cd319": "Role Hiện hoạt",
+      "ff39af19-8c2f-4c10-b62b-5e128928c374": "Role Không hoạt động"
+    }
+  },
+  {
+    "DisplayName": "Trạng thái (Role)",
+    "Name": "cr50a_role_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Hiện hoạt",
+      "1": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Role"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Role",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lý do dẫn đến Trạng thái (Role)",
+    "Name": "cr50a_role_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Hiện hoạt",
+      "2": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Role"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Role",
+    "Type": "OptionSetInfo"
+  }
+]

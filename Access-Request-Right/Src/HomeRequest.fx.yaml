@@ -1,4 +1,4 @@
-"Home As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+"HomeRequest As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
