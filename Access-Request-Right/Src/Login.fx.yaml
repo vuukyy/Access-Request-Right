@@ -1,0 +1,57 @@
+Login As screen:
+
+    Container1 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =768
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =1364
+        X: =2
+        ZIndex: =3
+
+        Image2_1 As image:
+            AlignInContainer: =AlignInContainer.Stretch
+            FillPortions: =1
+            Image: ='metin-ozer-hlWeILY_7tw-unsplash'
+            ImagePosition: =ImagePosition.Stretch
+            Width: =800
+            ZIndex: =1
+
+        Container2_1 As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            ZIndex: =2
+
+            Label3_1 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Center
+                FontWeight: =FontWeight.Bold
+                Height: =100
+                Size: =35
+                Text: |-
+                    ="Hello World!
+                    "
+                Width: =300
+                ZIndex: =1
+
+            btnClick_1 As button:
+                AlignInContainer: =AlignInContainer.Center
+                BorderThickness: =0
+                Fill: =RGBA(221, 79, 14, 1)
+                FocusedBorderColor: =Self.Color
+                FocusedBorderThickness: =2
+                Height: =50
+                Text: ="Click me"
+                ZIndex: =2
+

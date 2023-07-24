@@ -1,0 +1,90 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btnClick_1": 9,
+    "Container1": 5,
+    "Container2_1": 7,
+    "HeaderContainer1": 13,
+    "Home": 11,
+    "Host": 3,
+    "Image2_1": 6,
+    "Label3_1": 8,
+    "Login": 4,
+    "MainSectionContainer1": 14,
+    "ScreenContainer1": 12
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/24/2023 04:03:24",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "metin-ozer-hlWeILY_7tw-unsplash": "7418f11e-23e8-44ce-83b9-fb2838ea4126.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "metin-ozer-hlWeILY_7tw-unsplash": "https://docserverpwaprodeas.blob.core.windows.net/8b303276-fd94-4362-8bfc-cafdeba549ea-1/resource/Assets0Images07418f11e-23e8-44ce-83b9-fb2838ea4126.jpg?sv=2018-03-28&sr=b&sig=qP5iDveryIKsnv5zgfN40%2BlFQroKPSMV%2FSlGQ7NcWDI%3D&spr=https&se=2023-07-25T02%3A05%3A22Z&sp=r"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "groupContainer": 0,
+    "image": 1,
+    "label": 2
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "btnClick_1": {},
+    "Container1": {},
+    "Container2_1": {},
+    "HeaderContainer1": {},
+    "Home": {},
+    "Host": {},
+    "Image2_1": {},
+    "Label3_1": {},
+    "Login": {},
+    "MainSectionContainer1": {},
+    "ScreenContainer1": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "btnClick_1": 4,
+    "Container1": 0,
+    "Container2_1": 2,
+    "HeaderContainer1": 0,
+    "Home": 0,
+    "Host": 0,
+    "Image2_1": 1,
+    "Label3_1": 3,
+    "Login": 0,
+    "MainSectionContainer1": 0,
+    "ScreenContainer1": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-metin-ozer-hlWeILY_7tw-unsplash": 1,
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0723269,
+    "ControlCount": {
+      "button": 1,
+      "groupContainer": 2,
+      "image": 1,
+      "label": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 2.3147522
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
