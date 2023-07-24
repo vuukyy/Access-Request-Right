@@ -23,6 +23,7 @@ NewRole As screen:
             Icon1_1 As icon.Check:
                 Height: =80
                 Icon: =Icon.Check
+                OnSelect: =SubmitForm(FormRole)
                 Width: =80
                 ZIndex: =4
 
@@ -33,65 +34,12 @@ NewRole As screen:
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
-            Form2_1 As form:
+            FormRole As form:
                 DataSource: =Role
                 LayoutMinHeight: =250
                 LayoutMinWidth: =400
+                NumberOfColumns: =1
                 ZIndex: =1
-
-                idRole_DataCard1 As typedDataCard.textualViewCard:
-                    BorderStyle: =BorderStyle.Solid
-                    DataField: ="cr50a_idrole"
-                    Default: =ThisItem.idRole
-                    DisplayMode: =DisplayMode.View
-                    DisplayName: =DataSourceInfo([@Role],DataSourceInfo.DisplayName,"cr50a_idrole")
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =40
-                    Required: =false
-                    Width: =455
-                    X: =0
-                    Y: =0
-                    ZIndex: =1
-
-                    DataCardKey33 As label:
-                        AutoHeight: =true
-                        Height: =34
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        Wrap: =false
-                        X: =30
-                        Y: =10
-                        ZIndex: =1
-
-                    DataCardValue32 As label:
-                        AutoHeight: =true
-                        DisplayMode: =Parent.DisplayMode
-                        Height: =27
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Text: =Parent.Default
-                        Width: =Parent.Width - 60
-                        X: =30
-                        Y: =DataCardKey33.Y + DataCardKey33.Height + 5
-                        ZIndex: =2
-
-                    DataCardValue30_1 As text:
-                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                        Default: =Parent.Default
-                        DelayOutput: =true
-                        DisplayMode: =Parent.DisplayMode
-                        MaxLength: =Parent.Default
-                        PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =40
-                        Y: =DataCardKey31.Y + DataCardKey31.Height + 5
-                        ZIndex: =3
 
                 "'Role Name_DataCard1' As typedDataCard.textualEditCard":
                     BorderStyle: =BorderStyle.Solid
@@ -104,8 +52,8 @@ NewRole As screen:
                     MaxLength: =DataSourceInfo([@Role], DataSourceInfo.MaxLength, "cr50a_rolename")
                     Required: =true
                     Update: =DataCardValue30.Text
-                    Width: =455
-                    X: =1
+                    Width: =1366
+                    X: =0
                     Y: =0
                     ZIndex: =2
 

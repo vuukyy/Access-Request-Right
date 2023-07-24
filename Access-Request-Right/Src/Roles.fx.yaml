@@ -65,7 +65,7 @@
                     Button1_1 As button:
                         BorderThickness: =0
                         Height: =50
-                        OnSelect: =NewForm(Form2_1);Navigate(NewRole,ScreenTransition.Cover)
+                        OnSelect: =NewForm(FormRole);Navigate(NewRole,ScreenTransition.Cover)
                         Text: ="New Role"
                         ZIndex: =1
 
@@ -76,58 +76,86 @@
                     LayoutMode: =LayoutMode.Auto
                     ZIndex: =2
 
-                    tableRole As dataTable.datatable:
-                        BorderStyle: =BorderStyle.Solid
-                        DisplayMode: =DisplayMode.Edit
-                        Fill: =RGBA(0, 0, 0, 0)
-                        Height: =500
-                        Items: =Role
-                        LayoutMinHeight: =250
-                        LayoutMinWidth: =400
-                        Width: =800
-                        X: =0
-                        Y: =0
-                        ZIndex: =2
+                    Container9 As groupContainer.horizontalAutoLayoutContainer:
+                        FillPortions: =0
+                        Height: =70
+                        LayoutAlignItems: =LayoutAlignItems.Center
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =1
 
-                        "'Role Name_Cột2' As dataTableColumn.textualColumn":
-                            DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="Name"
-                            FieldName: ="cr50a_rolename"
-                            FieldVariantName: ="textualColumn"
-                            Height: =Parent.Height
-                            LayoutHeight: =Parent.Height
-                            Order: =2
-                            Text: =ThisItem.'Role Name'
+                        Label6 As label:
+                            FillPortions: =1
+                            LayoutMinWidth: =100
+                            Text: ="Văn bản"
                             Width: =100
-                            X: =0
-                            Y: =0
+                            ZIndex: =1
+
+                        Label7 As label:
+                            FillPortions: =1
+                            Text: ="Văn bản"
+                            ZIndex: =2
+
+                        Label8 As label:
+                            AlignInContainer: =AlignInContainer.Center
+                            FillPortions: =1
+                            Text: ="Văn bản"
+                            ZIndex: =3
+
+                        Label8_1 As label:
+                            AlignInContainer: =AlignInContainer.Center
+                            FillPortions: =1
+                            Text: ="Văn bản"
                             ZIndex: =4
 
-                        "'Ngày tạo_Cột4' As dataTableColumn.dateTimeColumn":
-                            DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="Ngày tạo"
-                            FieldName: ="createdon"
-                            FieldVariantName: ="dateTimeColumn"
-                            Height: =Parent.Height
-                            LayoutHeight: =Parent.Height
-                            Order: =3
-                            Text: =Text(ThisItem.'Ngày tạo',DateTimeFormat.LongDateTime)
-                            Width: =100
-                            X: =0
-                            Y: =0
+                    Gallery3 As gallery.galleryVertical:
+                        DelayItemLoading: =true
+                        Items: =Role
+                        Layout: =Layout.Vertical
+                        LayoutMinHeight: =287
+                        LayoutMinWidth: =320
+                        LoadingSpinner: =LoadingSpinner.Data
+                        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(80, Self.Width - 60), Min(80, Self.Height - 60))
+                        ZIndex: =2
+
+                        Label2 As label:
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'Role Name'
+                            X: =225
+                            ZIndex: =1
+
+                        Label3 As label:
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.'Ngày tạo'
+                            Width: =182
+                            X: =489
+                            ZIndex: =2
+
+                        Label4 As label:
+                            OnSelect: =Select(Parent)
+                            Text: =ThisItem.idRole
+                            ZIndex: =3
+
+                        Icon2 As icon.Edit:
+                            Height: =30
+                            Icon: =Icon.Edit
+                            OnSelect: =EditForm(FormRole);Navigate(NewRole,ScreenTransition.Cover)
+                            Width: =30
+                            X: =1100
+                            ZIndex: =4
+
+                        Icon3 As icon.Trash:
+                            Height: =30
+                            Icon: =Icon.Trash
+                            OnSelect: =Select(Parent)
+                            Width: =30
+                            X: =1250
                             ZIndex: =5
 
-                        idRole_Cột1 As dataTableColumn.textualColumn:
-                            DisplayMode: =DisplayMode.Edit
-                            FieldDisplayName: ="Role"
-                            FieldName: ="cr50a_idrole"
-                            FieldVariantName: ="textualColumn"
-                            Height: =Parent.Height
-                            LayoutHeight: =Parent.Height
-                            Order: =1
+                        Label14 As label:
+                            OnSelect: =Select(Parent)
                             Text: =ThisItem.idRole
-                            Width: =100
-                            X: =0
-                            Y: =0
+                            X: =777
                             ZIndex: =6
 

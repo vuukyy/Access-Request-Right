@@ -72,9 +72,9 @@ NewRequest As screen:
                         DisplayFields: =ThisItem.type
                         DisplayMode: =Parent.DisplayMode
                         IsSearchable: =false
-                        Items: =Choices(Option)
+                        Items: =Choices('Request Option')
                         PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                        SearchFields: =ThisItem.type
+                        SearchFields: =["Value"]
                         SearchItems: =[]
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60

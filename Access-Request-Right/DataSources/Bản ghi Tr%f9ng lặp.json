@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "duplicaterecord",
+    "MaxGetRowsCount": 500,
     "Name": "Bản ghi Trùng lặp",
     "NativeCDSDataSourceInfoNameMapping": {
       "_baserecordid_value": "ID Bản ghi Cơ sở",
@@ -17,5 +18,13 @@
     },
     "PreferredName": "Bản ghi Trùng lặp",
     "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Bản ghi Trùng lặp (lượt xem)",
+    "Name": "_duplicaterecord_views",
+    "RelatedEntityName": "Bản ghi Trùng lặp",
+    "Type": "ViewInfo",
+    "TrimmedViewName": true,
+    "ViewInfoNameMapping": {}
   }
 ]

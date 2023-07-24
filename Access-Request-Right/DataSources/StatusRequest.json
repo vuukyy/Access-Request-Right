@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr50a_statusrequest",
+    "MaxGetRowsCount": 500,
     "Name": "StatusRequest",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Chủ sở hữu",

@@ -68,7 +68,7 @@
     }
   },
   {
-    "DisplayName": "Option",
+    "DisplayName": "Request Option",
     "Name": "cr50a_option",
     "OptionSetInfoNameMapping": {
       "700230000": "Access Report",

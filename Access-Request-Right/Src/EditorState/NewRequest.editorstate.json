@@ -4298,14 +4298,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "[\"Value\"]",
-          "InvariantPropertyName": "SearchFields",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "SearchFields",
         "SelectionColor",
         "ChevronFill",
         "ChevronHoverFill",
