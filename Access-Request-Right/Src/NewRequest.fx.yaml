@@ -72,7 +72,7 @@ NewRequest As screen:
                         DisplayFields: =ThisItem.type
                         DisplayMode: =Parent.DisplayMode
                         IsSearchable: =false
-                        Items: =ThisItem.type
+                        Items: =Choices(Option)
                         PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                         SearchFields: =ThisItem.type
                         SearchItems: =[]

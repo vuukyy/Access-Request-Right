@@ -76,7 +76,7 @@
                     LayoutMode: =LayoutMode.Auto
                     ZIndex: =2
 
-                    DataTable3 As dataTable.datatable:
+                    dtRequest As dataTable.datatable:
                         BorderStyle: =BorderStyle.Solid
                         DisplayMode: =DisplayMode.Edit
                         Fill: =RGBA(0, 0, 0, 0)
