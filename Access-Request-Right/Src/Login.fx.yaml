@@ -8,8 +8,7 @@ Login As screen:
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =1364
-        X: =2
+        Width: =1366
         ZIndex: =3
 
         Image2_1 As image:

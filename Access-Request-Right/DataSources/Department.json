@@ -10,6 +10,7 @@
     "Name": "Department",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Chủ sở hữu",
+      "cr50a_abbreviations": "Abbreviations",
       "cr50a_department_AsyncOperations": "Công việc Hệ thống",
       "cr50a_department_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
       "cr50a_department_DuplicateBaseRecord": "Bản ghi Trùng lặp (cr50a_department_DuplicateBaseRecord)",
@@ -21,6 +22,7 @@
       "cr50a_Department_Users": "Users",
       "cr50a_departmentid": "Department",
       "cr50a_departmentname": "Department Name",
+      "cr50a_description": "Description",
       "cr50a_iddepartment": "idDepartment",
       "createdby": "Người tạo",
       "createdon": "Ngày tạo",
