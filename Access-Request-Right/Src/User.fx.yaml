@@ -185,7 +185,7 @@
 
                         tableUser As gallery.galleryVertical:
                             DelayItemLoading: =true
-                            Items: =Users
+                            Items: =SortByColumns(Users,"cr50a_iduser",SortOrder.Ascending)
                             Layout: =Layout.Vertical
                             LayoutMinHeight: =287
                             LayoutMinWidth: =320
@@ -253,7 +253,7 @@
 
                             Label14_2 As label:
                                 OnSelect: =Select(Parent)
-                                Text: =LookUp(Department, idDepartment = idDepartment,'Department Name')
+                                Text: =ThisItem.Department.'Department Name'
                                 Width: =68
                                 X: =521
                                 Y: =20
@@ -261,7 +261,7 @@
 
                             Label14_3 As label:
                                 OnSelect: =Select(Parent)
-                                Text: =LookUp(Role, idRole = idRole,'Role Name')
+                                Text: =ThisItem.Role.'Role Name'
                                 Width: =119
                                 X: =655
                                 Y: =20
