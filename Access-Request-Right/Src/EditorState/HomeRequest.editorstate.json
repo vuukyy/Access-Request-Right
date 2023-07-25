@@ -48,7 +48,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "attachFile_Cột2",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -456,7 +456,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "comment_Cột2",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1243,7 +1243,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Created By_Cột1",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1343,7 +1343,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "description_Cột2",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2761,7 +2761,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Ngày tạo Bản ghi_Cột2",
-      "ParentIndex": 10,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2861,7 +2861,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Ngày tạo_Cột2",
-      "ParentIndex": 9,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2954,7 +2954,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Người tạo_Cột1",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3061,7 +3061,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "permission_Cột2",
-      "ParentIndex": 1,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3161,7 +3161,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "reason_Cột2",
-      "ParentIndex": 2,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3444,7 +3444,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "StatusRequest_Cột1",
-      "ParentIndex": 6,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3551,7 +3551,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "type_Cột2",
-      "ParentIndex": 0,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

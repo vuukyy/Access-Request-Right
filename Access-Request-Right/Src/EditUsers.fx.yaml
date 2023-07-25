@@ -363,7 +363,7 @@
                             DataCardKey10 As label:
                                 AutoHeight: =true
                                 Height: =34
-                                Text: =Parent.DisplayName
+                                Text: ="Email"
                                 Width: =Parent.Width - 60
                                 Wrap: =false
                                 X: =30
@@ -431,7 +431,7 @@
                             DataCardKey11 As label:
                                 AutoHeight: =true
                                 Height: =34
-                                Text: =Parent.DisplayName
+                                Text: ="Password"
                                 Width: =Parent.Width - 60
                                 Wrap: =false
                                 X: =30
@@ -499,7 +499,7 @@
                             DataCardKey12 As label:
                                 AutoHeight: =true
                                 Height: =34
-                                Text: =Parent.DisplayName
+                                Text: ="Position"
                                 Width: =Parent.Width - 60
                                 Wrap: =false
                                 X: =30
