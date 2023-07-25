@@ -107,7 +107,7 @@
                         Button1_2 As button:
                             BorderThickness: =0
                             Height: =50
-                            OnSelect: =NewForm(FormRole);Navigate(NewRole,ScreenTransition.Cover)
+                            OnSelect: =NewForm(FormUsers);Navigate(EditUsers,ScreenTransition.Cover)
                             Text: ="New Role"
                             ZIndex: =1
 
@@ -230,7 +230,7 @@
                                 OnSelect: =Select(Parent)
                                 Text: =ThisItem.email
                                 Width: =116
-                                X: =368
+                                X: =356
                                 Y: =20
                                 ZIndex: =6
 
@@ -250,4 +250,20 @@
                                 X: =812
                                 Y: =20
                                 ZIndex: =9
+
+                            Label14_2 As label:
+                                OnSelect: =Select(Parent)
+                                Text: =LookUp(Department, idDepartment = idDepartment,'Department Name')
+                                Width: =68
+                                X: =521
+                                Y: =20
+                                ZIndex: =10
+
+                            Label14_3 As label:
+                                OnSelect: =Select(Parent)
+                                Text: =LookUp(Role, idRole = idRole,'Role Name')
+                                Width: =119
+                                X: =655
+                                Y: =20
+                                ZIndex: =11
 

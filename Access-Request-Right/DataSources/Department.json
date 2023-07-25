@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr50a_department",
+    "MaxGetRowsCount": 500,
     "Name": "Department",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Chủ sở hữu",
