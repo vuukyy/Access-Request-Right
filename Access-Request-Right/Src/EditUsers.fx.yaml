@@ -89,7 +89,7 @@
                     Icon1_7 As icon.Check:
                         Height: =80
                         Icon: =Icon.Check
-                        OnSelect: =SubmitForm(FormUsers);Back()
+                        OnSelect: =AccountCreated.Run();Back()
                         Width: =80
                         ZIndex: =3
 
