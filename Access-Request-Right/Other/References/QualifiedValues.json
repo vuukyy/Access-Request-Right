@@ -50,6 +50,13 @@
       "Values": {
         "Thông tin": "809d42d3-92fe-49f1-8326-f718f5dbdce7"
       }
+    },
+    {
+      "Kind": "default.cds_site_forms",
+      "Namespace": "Cơ sở (Biểu mẫu)",
+      "Values": {
+        "Thông tin": "43ba7bd4-22ad-4993-b0e9-949540585faa"
+      }
     }
   ]
 }

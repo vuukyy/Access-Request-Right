@@ -74,6 +74,20 @@
     ],
     "id": "66091f8c-2b6f-416e-ab92-cc18a8e4db18"
   },
+  "9444aaf2-d916-441c-9cfa-b9919b86c08a": {
+    "connectionRef": {
+      "displayName": "Azure AD",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1626/1.0.1626.3238/azuread/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_azuread"
+    },
+    "datasets": {},
+    "dataSources": [
+      "AzureAD"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "9444aaf2-d916-441c-9cfa-b9919b86c08a"
+  },
   "fd47966d-f408-45cd-805e-93ed41209d95": {
     "connectionRef": {
       "displayName": "Người dùng Office 365",

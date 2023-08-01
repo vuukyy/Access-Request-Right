@@ -135,6 +135,7 @@
     "NewRole",
     "DetailRole",
     "User",
-    "EditUsers"
+    "EditUsers",
+    "Screen1"
   ]
 }

@@ -1,0 +1,189 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "sites",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "site",
+    "Name": "Cơ sở",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "address1_addresstypecode": "Địa chỉ 1: Loại Địa chỉ",
+      "address1_city": "Thành phố",
+      "address1_county": "Địa chỉ 1: Hạt",
+      "address1_country": "Quốc gia/Khu vực",
+      "address1_fax": "Fax",
+      "address1_latitude": "Địa chỉ 1: Vĩ độ",
+      "address1_line1": "Đường 1",
+      "address1_line2": "Đường 2",
+      "address1_line3": "Đường 3",
+      "address1_longitude": "Địa chỉ 1: Kinh độ",
+      "address1_name": "Địa chỉ 1: Tên",
+      "address1_postalcode": "Mã ZIP/Mã Bưu điện",
+      "address1_postofficebox": "Địa chỉ 1: Hòm Thư",
+      "address1_shippingmethodcode": "Địa chỉ 1: Phương thức Giao hàng",
+      "address1_stateorprovince": "Bang/Tỉnh",
+      "address1_telephone1": "Điện thoại Chính",
+      "address1_telephone2": "Điện thoại Khác",
+      "address1_telephone3": "Địa chỉ 1: Điện thoại 3",
+      "address1_upszone": "Địa chỉ 1: Vùng UPS",
+      "address1_utcoffset": "Địa chỉ 1: Phần bù UTC",
+      "address2_addresstypecode": "Địa chỉ 2: Loại Địa chỉ",
+      "address2_city": "Địa chỉ 2: Thành phố",
+      "address2_county": "Địa chỉ 2: Hạt",
+      "address2_country": "Địa chỉ 2: Quốc gia/Khu vực",
+      "address2_fax": "Địa chỉ 2: Fax",
+      "address2_latitude": "Địa chỉ 2: Vĩ độ",
+      "address2_line1": "Địa chỉ 2: Phố 1",
+      "address2_line2": "Địa chỉ 2: Phố 2",
+      "address2_line3": "Địa chỉ 2: Phố 3",
+      "address2_longitude": "Địa chỉ 2: Kinh độ",
+      "address2_name": "Địa chỉ 2: Tên",
+      "address2_postalcode": "Địa chỉ 2: Mã ZIP/Mã Bưu điện",
+      "address2_postofficebox": "Địa chỉ 2: Hòm Thư",
+      "address2_shippingmethodcode": "Địa chỉ 2: Phương thức Giao hàng",
+      "address2_stateorprovince": "Địa chỉ 2: Bang/Tỉnh",
+      "address2_telephone1": "Địa chỉ 2: Điện thoại 1",
+      "address2_telephone2": "Địa chỉ 2: Điện thoại 2",
+      "address2_telephone3": "Địa chỉ 2: Điện thoại 3",
+      "address2_upszone": "Địa chỉ 2: Vùng UPS",
+      "address2_utcoffset": "Địa chỉ 2: Phần bù UTC",
+      "createdby": "Người tạo",
+      "createdon": "Ngày tạo",
+      "createdonbehalfby": "Người tạo (Đại diện)",
+      "emailaddress": "Email (emailaddress)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Người sửa đổi",
+      "modifiedon": "Ngày sửa đổi",
+      "modifiedonbehalfby": "Người sửa đổi (Đại diện)",
+      "name": "Tên",
+      "organizationid_organization": "Organization Id",
+      "overriddencreatedon": "Record Created On",
+      "site_ActivityPointers": "Hoạt động",
+      "site_Appointments": "Cuộc hẹn",
+      "Site_AsyncOperations": "Công việc Hệ thống",
+      "Site_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
+      "site_chats": "Trò chuyện qua Teams",
+      "site_Emails": "Email (site_Emails)",
+      "site_equipment": "Cơ sở/Thiết bị",
+      "site_Faxes": "Bản fax",
+      "site_Letters": "Thư tín",
+      "site_MailboxTrackingFolders": "Thư mục Tự động Theo dõi Hộp thư",
+      "site_msdyn_copilottranscripts": "Bản chép lời Copilot",
+      "site_msdyn_ocliveworkitems": "Cuộc hội thoại",
+      "site_msdyn_ocsessions": "Phiên",
+      "site_msfp_alerts": "Cảnh báo Customer Voice",
+      "site_msfp_surveyinvites": "Lời mời tham gia khảo sát Customer Voice",
+      "site_msfp_surveyresponses": "Câu trả lời cho khảo sát Customer Voice",
+      "site_OpportunityCloses": "Hoạt động Đóng Cơ hội",
+      "site_OrderCloses": "Hoạt động đóng đơn hàng",
+      "site_PrincipalObjectAttributeAccesses": "Chia sẻ trường",
+      "Site_ProcessSessions": "Giao dịch quy trình",
+      "site_PhoneCalls": "Cuộc gọi điện thoại",
+      "site_QuoteCloses": "Hoạt động đóng báo giá",
+      "site_RecurringAppointmentMasters": "Cuộc hẹn lặp lại",
+      "site_resources": "Nguồn lực",
+      "site_service_appointments": "Hoạt động dịch vụ (site_service_appointments)",
+      "site_ServiceAppointments": "Hoạt động dịch vụ (site_ServiceAppointments)",
+      "site_SocialActivities": "Hoạt động mạng xã hội",
+      "Site_SyncErrors": "Lỗi đồng bộ",
+      "site_system_users": "Người dùng",
+      "site_Tasks": "Nhiệm vụ",
+      "siteid": "Trang",
+      "timezonecode": "Múi giờ",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Cơ sở",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Cơ sở (lượt xem)",
+    "Name": "_site_views",
+    "RelatedEntityName": "Cơ sở",
+    "Type": "ViewInfo",
+    "TrimmedViewName": true,
+    "ViewInfoNameMapping": {
+      "c09b2072-b98f-42d2-a74a-47deaa29f205": "Dạng xem Tra cứu trang",
+      "f3d897bf-cc60-4b36-96a3-256e6e17b82b": "Dạng xem Tìm kiếm Nâng cao Trang",
+      "f5262cb2-3621-43f6-9410-f71527188da7": "Tất cả trang"
+    }
+  },
+  {
+    "DisplayName": "Địa chỉ 1: Loại Địa chỉ (Cơ sở)",
+    "Name": "site_address1_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị Mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_addresstypecode",
+        "OptionSetReferenceEntityName": "Cơ sở"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_addresstypecode",
+    "RelatedEntityName": "Cơ sở",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 1: Phương thức Giao hàng (Cơ sở)",
+    "Name": "site_address1_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị Mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Cơ sở"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_shippingmethodcode",
+    "RelatedEntityName": "Cơ sở",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 2: Loại Địa chỉ (Cơ sở)",
+    "Name": "site_address2_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị Mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_addresstypecode",
+        "OptionSetReferenceEntityName": "Cơ sở"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_addresstypecode",
+    "RelatedEntityName": "Cơ sở",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 2: Phương thức Giao hàng (Cơ sở)",
+    "Name": "site_address2_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị Mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Cơ sở"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_shippingmethodcode",
+    "RelatedEntityName": "Cơ sở",
+    "Type": "OptionSetInfo"
+  }
+]
