@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "site",
+    "MaxGetRowsCount": 500,
     "Name": "Cơ sở",
     "NativeCDSDataSourceInfoNameMapping": {
       "address1_addresstypecode": "Địa chỉ 1: Loại Địa chỉ",
