@@ -129,7 +129,6 @@
   },
   "ScreenOrder": [
     "Login",
-    "HomeRequest",
     "Roles",
     "NewRequest",
     "NewRole",

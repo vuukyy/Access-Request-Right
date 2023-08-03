@@ -119,8 +119,11 @@
                         ZIndex: =2
 
                         Container9_1 As groupContainer.horizontalAutoLayoutContainer:
+                            FillPortions: =0
                             Height: =70
                             LayoutAlignItems: =LayoutAlignItems.Center
+                            LayoutMinHeight: =50
+                            LayoutMinWidth: =250
                             LayoutMode: =LayoutMode.Auto
                             ZIndex: =1
 
@@ -163,7 +166,7 @@
 
                         tableUser As gallery.galleryVertical:
                             DelayItemLoading: =true
-                            Items: =SortByColumns(Users,"cr50a_iduser",SortOrder.Ascending)
+                            Items: =SortByColumns(Users,"cr50a_iduser",SortOrder.Descending)
                             Layout: =Layout.Vertical
                             LayoutMinHeight: =287
                             LayoutMinWidth: =320
@@ -202,7 +205,7 @@
                                 Text: =ThisItem.email
                                 Width: =133
                                 X: =258
-                                Y: =20
+                                Y: =12
                                 ZIndex: =6
 
                             Icon6_1 As icon.View:
@@ -214,27 +217,21 @@
                                 Y: =25
                                 ZIndex: =7
 
-                            Label3_4 As label:
-                                OnSelect: =Select(Parent)
-                                Text: =ThisItem.lastLogin
-                                Width: =117
-                                X: =812
-                                Y: =20
-                                ZIndex: =9
-
-                            Label14_2 As label:
+                            Label14_4 As label:
+                                Height: =56
                                 OnSelect: =Select(Parent)
                                 Text: =ThisItem.Department.'Department Name'
-                                Width: =68
-                                X: =521
-                                Y: =20
-                                ZIndex: =10
+                                Width: =133
+                                X: =409
+                                Y: =12
+                                ZIndex: =12
 
-                            Label14_3 As label:
+                            Label14_5 As label:
+                                Height: =56
                                 OnSelect: =Select(Parent)
                                 Text: =ThisItem.Role.'Role Name'
-                                Width: =119
-                                X: =655
-                                Y: =20
-                                ZIndex: =11
+                                Width: =133
+                                X: =554
+                                Y: =12
+                                ZIndex: =13
 

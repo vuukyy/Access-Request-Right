@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr50a_groupuser",
+    "MaxGetRowsCount": 500,
     "Name": "GroupUser",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Chủ sở hữu",
@@ -24,6 +25,7 @@
       "cr50a_groupusername": "GroupUserName",
       "cr50a_id": "id",
       "cr50a_mail": "mail",
+      "cr50a_Users_GroupUser_cr50a_GroupUser": "Users",
       "createdby": "Người tạo",
       "createdon": "Ngày tạo",
       "createdonbehalfby": "Người tạo (Đại diện)",
