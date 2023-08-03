@@ -119,11 +119,8 @@
                         ZIndex: =2
 
                         Container9_1 As groupContainer.horizontalAutoLayoutContainer:
-                            FillPortions: =0
                             Height: =70
                             LayoutAlignItems: =LayoutAlignItems.Center
-                            LayoutMinHeight: =100
-                            LayoutMinWidth: =250
                             LayoutMode: =LayoutMode.Auto
                             ZIndex: =1
 
@@ -131,14 +128,6 @@
                                 Text: =""
                                 Width: =80
                                 ZIndex: =1
-
-                            Label6_1 As label:
-                                FontWeight: =FontWeight.Bold
-                                LayoutMinWidth: =100
-                                Size: =15
-                                Text: ="ID User"
-                                Width: =100
-                                ZIndex: =2
 
                             Label7_1 As label:
                                 FontWeight: =FontWeight.Bold
@@ -148,35 +137,24 @@
                                 ZIndex: =3
 
                             Label8_2 As label:
-                                AlignInContainer: =AlignInContainer.Center
                                 FontWeight: =FontWeight.Bold
                                 Size: =15
                                 Text: ="Email"
                                 ZIndex: =4
 
                             Label8_3 As label:
-                                AlignInContainer: =AlignInContainer.Center
                                 FontWeight: =FontWeight.Bold
                                 Size: =15
-                                Text: ="Department"
+                                Text: ="Dept."
                                 ZIndex: =5
 
                             Label8_5 As label:
-                                AlignInContainer: =AlignInContainer.Center
                                 FontWeight: =FontWeight.Bold
                                 Size: =15
                                 Text: ="Role"
                                 ZIndex: =7
 
-                            Label8_6 As label:
-                                AlignInContainer: =AlignInContainer.Center
-                                FontWeight: =FontWeight.Bold
-                                Size: =15
-                                Text: ="Last Login"
-                                ZIndex: =8
-
                             Label8_7 As label:
-                                AlignInContainer: =AlignInContainer.Center
                                 FontWeight: =FontWeight.Bold
                                 Size: =15
                                 Text: =""
@@ -196,17 +174,9 @@
                             Label2_1 As label:
                                 OnSelect: =Select(Parent)
                                 Text: =ThisItem.'User Name'
-                                X: =186
+                                X: =80
                                 Y: =20
                                 ZIndex: =1
-
-                            Label4_1 As label:
-                                OnSelect: =Select(Parent)
-                                Text: =ThisItem.idUser
-                                Width: =99
-                                X: =75
-                                Y: =20
-                                ZIndex: =3
 
                             Icon2_1 As icon.Edit:
                                 Height: =30
@@ -227,10 +197,11 @@
                                 ZIndex: =5
 
                             Label14_1 As label:
+                                Height: =56
                                 OnSelect: =Select(Parent)
                                 Text: =ThisItem.email
-                                Width: =116
-                                X: =356
+                                Width: =133
+                                X: =258
                                 Y: =20
                                 ZIndex: =6
 
