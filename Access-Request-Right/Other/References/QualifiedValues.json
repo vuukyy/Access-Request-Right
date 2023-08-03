@@ -57,6 +57,13 @@
       "Values": {
         "Thông tin": "43ba7bd4-22ad-4993-b0e9-949540585faa"
       }
+    },
+    {
+      "Kind": "default.cds_cr50a_groupuser_forms",
+      "Namespace": "GroupUser (Biểu mẫu)",
+      "Values": {
+        "Thông tin": "a869e776-92b0-48fe-bca1-5c10074d3894"
+      }
     }
   ]
 }

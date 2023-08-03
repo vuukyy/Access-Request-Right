@@ -1,29 +1,29 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "cr50a_roles",
+    "EntitySetName": "cr50a_groupusers",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "cr50a_role",
-    "MaxGetRowsCount": 500,
-    "Name": "Role",
+    "LogicalName": "cr50a_groupuser",
+    "Name": "GroupUser",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Chủ sở hữu",
-      "cr50a_description": "Description",
-      "cr50a_idrole": "idRole",
-      "cr50a_role_AsyncOperations": "Công việc Hệ thống",
-      "cr50a_role_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
-      "cr50a_role_DuplicateBaseRecord": "Bản ghi Trùng lặp (cr50a_role_DuplicateBaseRecord)",
-      "cr50a_role_DuplicateMatchingRecord": "Bản ghi Trùng lặp (cr50a_role_DuplicateMatchingRecord)",
-      "cr50a_role_MailboxTrackingFolders": "Thư mục Tự động Theo dõi Hộp thư",
-      "cr50a_role_PrincipalObjectAttributeAccesses": "Chia sẻ trường",
-      "cr50a_role_ProcessSession": "Giao dịch quy trình",
-      "cr50a_role_SyncErrors": "Lỗi đồng bộ",
-      "cr50a_Role_Users": "Users",
-      "cr50a_roleid": "Role",
-      "cr50a_rolename": "Role Name",
-      "cr50a_UserRole_cr50a_Role_cr50a_Role": "UserRole",
+      "cr50a_createddatetime": "createdDateTime",
+      "cr50a_deleteddatetime": "deletedDateTime",
+      "cr50a_displayname": "displayname",
+      "cr50a_groupuser_AsyncOperations": "Công việc Hệ thống",
+      "cr50a_groupuser_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
+      "cr50a_groupuser_DuplicateBaseRecord": "Bản ghi Trùng lặp (cr50a_groupuser_DuplicateBaseRecord)",
+      "cr50a_groupuser_DuplicateMatchingRecord": "Bản ghi Trùng lặp (cr50a_groupuser_DuplicateMatchingRecord)",
+      "cr50a_groupuser_MailboxTrackingFolders": "Thư mục Tự động Theo dõi Hộp thư",
+      "cr50a_groupuser_PrincipalObjectAttributeAccesses": "Chia sẻ trường",
+      "cr50a_groupuser_ProcessSession": "Giao dịch quy trình",
+      "cr50a_groupuser_SyncErrors": "Lỗi đồng bộ",
+      "cr50a_groupuserid": "GroupUser",
+      "cr50a_groupusername": "GroupUserName",
+      "cr50a_id": "id",
+      "cr50a_mail": "mail",
       "createdby": "Người tạo",
       "createdon": "Ngày tạo",
       "createdonbehalfby": "Người tạo (Đại diện)",
@@ -41,26 +41,26 @@
       "utcconversiontimezonecode": "Mã múi giờ chuyển đổi UTC",
       "versionnumber": "Số phiên bản"
     },
-    "PreferredName": "Role",
+    "PreferredName": "GroupUser",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "Role (lượt xem)",
-    "Name": "_cr50a_role_views",
-    "RelatedEntityName": "Role",
+    "DisplayName": "GroupUser (lượt xem)",
+    "Name": "_cr50a_groupuser_views",
+    "RelatedEntityName": "GroupUser",
     "Type": "ViewInfo",
     "TrimmedViewName": true,
     "ViewInfoNameMapping": {
-      "4295e9ca-b891-4431-9423-c794d99906e1": "Dạng xem Tra cứu Role",
-      "486d1d6c-7728-4b23-95d8-ede4f3934ecc": "Dạng xem Liên kết Role",
-      "93cc2ccb-7839-45df-8143-b5ddda9cce04": "Dạng xem Tìm kiếm Nâng cao Role",
-      "9850b191-f7c0-452a-be25-2dbec14cd319": "Role Hiện hoạt",
-      "ff39af19-8c2f-4c10-b62b-5e128928c374": "Role Không hoạt động"
+      "54953156-9cb4-4106-8d98-c789563b974c": "Dạng xem Tìm kiếm Nâng cao GroupUser",
+      "68fc0ee6-a5f4-4ddc-aa9b-27f10fa47fa4": "Dạng xem Liên kết GroupUser",
+      "a009922e-5f04-4b1b-91c0-852717ef3ab3": "GroupUser Không hoạt động",
+      "cc25df5d-cc68-490b-aa41-713d4cf6204c": "Dạng xem Tra cứu GroupUser",
+      "e9154781-a033-471c-8dc8-f9b75bc74dc2": "GroupUser Hiện hoạt"
     }
   },
   {
-    "DisplayName": "Trạng thái (Role)",
-    "Name": "cr50a_role_statecode",
+    "DisplayName": "Trạng thái (GroupUser)",
+    "Name": "cr50a_groupuser_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Hiện hoạt",
       "1": "Không hoạt động"
@@ -70,17 +70,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Role"
+        "OptionSetReferenceEntityName": "GroupUser"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Role",
+    "RelatedEntityName": "GroupUser",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Lý do dẫn đến Trạng thái (Role)",
-    "Name": "cr50a_role_statuscode",
+    "DisplayName": "Lý do dẫn đến Trạng thái (GroupUser)",
+    "Name": "cr50a_groupuser_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Hiện hoạt",
       "2": "Không hoạt động"
@@ -90,12 +90,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Role"
+        "OptionSetReferenceEntityName": "GroupUser"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Role",
+    "RelatedEntityName": "GroupUser",
     "Type": "OptionSetInfo"
   }
 ]

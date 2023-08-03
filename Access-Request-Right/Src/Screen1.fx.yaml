@@ -1,110 +1,10 @@
 Screen1 As screen:
     OnVisible: =
 
-    "Gallery3 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
-        DelayItemLoading: =true
-        Height: =511
-        Items: =ColAzureGroupsMembers
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =163
-        X: =611
-        Y: =235
-        ZIndex: =1
-
-        Title5 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.AzureGroupName
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle5.Size*1.8 + 2 + Body1.Size*1.8)) / 2
-            ZIndex: =1
-
-        Subtitle5 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.AzureGroupID
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title5.Width
-            X: =Title5.X
-            Y: =Title5.Y + Title5.Height
-            ZIndex: =2
-
-        Body1 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.AzureGroupEmail
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title5.Width
-            X: =Title5.X
-            Y: =Subtitle5.Y + Subtitle5.Height
-            ZIndex: =3
-
-        NextArrow5 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            Tooltip: ="Xem chi tiết mục"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator5 As rectangle:
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
-
-        Rectangle6 As rectangle:
-            Height: =Parent.TemplateHeight - Separator5.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =6
-
-        Label11 As label:
-            Height: =25
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.AzureGroupDescription
-            Width: =540
-            X: =16
-            Y: =114
-            ZIndex: =7
-
     Dropdown1 As dropdown:
         Items: =ColAzureGroupsMembers
-        X: =35
-        Y: =145
+        X: =26
+        Y: =86
         ZIndex: =3
 
     Button2 As button:
@@ -122,8 +22,8 @@ Screen1 As screen:
             )
         Text: ="Get Group Members"
         Width: =237
-        X: =35
-        Y: =73
+        X: =26
+        Y: =14
         ZIndex: =4
 
     Button2_1 As button:
@@ -155,118 +55,239 @@ Screen1 As screen:
             }))
         Text: ="Get Members Group"
         Width: =237
-        X: =714
-        Y: =73
+        X: =705
+        Y: =14
         ZIndex: =5
 
     Dropdown1_1 As dropdown:
         Items: =AzureAD.GetGroupMembers(varGroupID.DTS).value
-        X: =714
-        Y: =145
+        X: =705
+        Y: =86
         ZIndex: =6
-
-    "Gallery2_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
-        DelayItemLoading: =true
-        Height: =467
-        Items: =AzureAD.GetGroupMembers(varGroupID.DTS).value
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =193
-        Width: =484
-        X: =35
-        Y: =257
-        ZIndex: =7
-
-        Title4_1 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.displayName
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle4_1.Size*1.8 + 2 + Body1_1.Size*1.8)) / 2
-            ZIndex: =1
-
-        Subtitle4_1 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.jobTitle
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title4_1.Width
-            X: =Title4_1.X
-            Y: =Title4_1.Y + Title4_1.Height
-            ZIndex: =2
-
-        Body1_1 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.officeLocation
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title4_1.Width
-            X: =Title4_1.X
-            Y: =Subtitle4_1.Y + Subtitle4_1.Height
-            ZIndex: =3
-
-        NextArrow2_1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            Tooltip: ="Xem chi tiết mục"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator2_1 As rectangle:
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
-
-        Rectangle2_1 As rectangle:
-            Height: =Parent.TemplateHeight - Separator2_1.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =6
-
-        Label9 As label:
-            Height: =27
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.mail
-            Width: =272
-            X: =16
-            Y: =129
-            ZIndex: =7
 
     Button3 As button:
         OnSelect: |-
             =Set(varGroupID,{Dev:"f2c28c3f-ff15-4fe0-b6c4-1340fb519cb0",AllStaff:"f07e7897-a7ab-4d4f-9b82-40b7b40e3aa2",DTS:"c575f200-97d5-4096-9f7a-0209954f6697"})
         Text: ="Nút"
-        X: =984
-        Y: =73
+        X: =975
+        Y: =14
         ZIndex: =8
+
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =536
+        Items: =Users
+        Width: =672
+        X: =0
+        Y: =232
+        ZIndex: =9
+
+        id_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="id"
+            FieldName: ="id"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.idUser
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =8
+
+        displayName_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="displayName"
+            FieldName: ="displayName"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.'User Name'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =9
+
+        givenName_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="givenName"
+            FieldName: ="givenName"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.givenName
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =10
+
+        jobTitle_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="jobTitle"
+            FieldName: ="jobTitle"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.position
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =11
+
+        mail_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="mail"
+            FieldName: ="mail"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.email
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =12
+
+        mobilePhone_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="mobilePhone"
+            FieldName: ="mobilePhone"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =ThisItem.mobilePhone
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =13
+
+        officeLocation_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="officeLocation"
+            FieldName: ="officeLocation"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =9
+            Text: =ThisItem.officeLocation
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =14
+
+        surname_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="surname"
+            FieldName: ="surname"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.surName
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =15
+
+        preferredLanguage_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="preferredLanguage"
+            FieldName: ="preferredLanguage"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =10
+            Text: =ThisItem.preferedLanguage
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =16
+
+        userPrincipalName_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="userPrincipalName"
+            FieldName: ="userPrincipalName"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.userPrincipalName
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =17
+
+    DataTable2 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =536
+        Items: =GroupUser
+        Width: =657
+        X: =705
+        Y: =232
+        ZIndex: =10
+
+        GroupUserName_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="GroupUserName"
+            FieldName: ="cr50a_groupusername"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.GroupUserName
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =19
+
+        displayname_Cột1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="displayname"
+            FieldName: ="cr50a_displayname"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.displayname
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =21
+
+        id_Cột2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="id"
+            FieldName: ="cr50a_id"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.id
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =23
+
+        mail_Cột2 As dataTableColumn.emailColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="mail"
+            FieldName: ="cr50a_mail"
+            FieldVariantName: ="emailColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.mail
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =24
 
