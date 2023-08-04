@@ -87,19 +87,62 @@ Screen1 As screen:
                     LayoutMode: =LayoutMode.Auto
                     ZIndex: =1
 
-                    Gallery1 As gallery.galleryHorizontal:
+                    "Gallery1 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageOverlayVariant_ver5.0'":
                         DelayItemLoading: =true
-                        Items: =CustomGallerySample
-                        LayoutMinHeight: =287
-                        LayoutMinWidth: =320
+                        Items: =Request
                         LoadingSpinner: =LoadingSpinner.Data
-                        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
+                        TemplatePadding: =0
+                        TemplateSize: =Min(440, Self.Height - 60)
+                        WrapCount: =2
                         ZIndex: =1
 
-                        Button2 As button:
+                        Image3 As image:
+                            Height: =Parent.TemplateHeight - 32
+                            Image: ='luke-chesser-B_oL3jEt5L4-unsplash'
+                            ImagePosition: =ImagePosition.Fill
                             OnSelect: =Select(Parent)
-                            Text: ="Nút"
-                            X: =40
-                            Y: =40
+                            RadiusBottomLeft: =8
+                            RadiusBottomRight: =8
+                            RadiusTopLeft: =8
+                            RadiusTopRight: =8
+                            Width: =Parent.TemplateWidth - 32
+                            X: =16
+                            Y: =16
                             ZIndex: =1
+
+                        Overlay1 As rectangle:
+                            Height: =108
+                            OnSelect: =Select(Parent)
+                            Width: =Image3.Width
+                            X: =Image3.X
+                            Y: =Image3.Y + Image3.Height - 108
+                            ZIndex: =2
+
+                        Title2 As label:
+                            Height: =Self.Size * 1.8
+                            OnSelect: =Select(Parent)
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Text: =ThisItem.'Request Name'
+                            VerticalAlign: =VerticalAlign.Top
+                            Width: =Overlay1.Width - 32
+                            X: =Overlay1.X + 16
+                            Y: =Overlay1.Y + 16
+                            ZIndex: =3
+
+                        Subtitle2 As label:
+                            Height: =Self.Size * 1.8
+                            OnSelect: =Select(Parent)
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Text: =ThisItem.'Ngày tạo'
+                            VerticalAlign: =VerticalAlign.Top
+                            Width: =Title2.Width
+                            X: =Title2.X
+                            Y: =Title2.Y + Title2.Height + 8
+                            ZIndex: =4
 
