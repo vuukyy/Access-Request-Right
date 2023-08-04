@@ -44,13 +44,81 @@ Login As screen:
                 Width: =300
                 ZIndex: =1
 
-            btnClick_1 As button:
+            Container2 As groupContainer.verticalAutoLayoutContainer:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                DropShadow: =DropShadow.None
+                FillPortions: =0
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                ZIndex: =2
+
+                Container3 As groupContainer.horizontalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =50
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    ZIndex: =1
+
+                    Label11 As label:
+                        Text: ="Email"
+                        ZIndex: =1
+
+                    txtEmail As text:
+                        Default: =""
+                        HintText: ="Enter your email"
+                        ZIndex: =2
+
+                Container6 As groupContainer.horizontalAutoLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    Height: =50
+                    LayoutAlignItems: =LayoutAlignItems.Center
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    ZIndex: =2
+
+                    Label12 As label:
+                        Text: ="Password"
+                        ZIndex: =1
+
+                    txtPass As text:
+                        Default: =""
+                        HintText: ="Enter your password"
+                        ZIndex: =2
+
+            btnLogin As button:
                 AlignInContainer: =AlignInContainer.Center
                 BorderThickness: =0
                 Fill: =RGBA(221, 79, 14, 1)
                 FocusedBorderColor: =Self.Color
                 FocusedBorderThickness: =2
                 Height: =50
-                Text: ="Click me"
-                ZIndex: =2
+                Text: ="Login"
+                ZIndex: =3
 
