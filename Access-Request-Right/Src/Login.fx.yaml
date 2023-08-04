@@ -114,6 +114,7 @@ Login As screen:
                         BorderThickness: =1
                         Default: =""
                         HintText: ="Enter your password"
+                        Mode: =TextMode.Password
                         ZIndex: =2
 
             btnLogin As button:
@@ -123,6 +124,23 @@ Login As screen:
                 FocusedBorderColor: =Self.Color
                 FocusedBorderThickness: =2
                 Height: =50
+                OnSelect: |-
+                    =Set(CurrentSignInUser, LookUp(Users, email = txtEmail.Text And Role.'Role Name', idUser));
+                    
+                    If(
+                        IsBlankOrError(
+                            LookUp(
+                                Users,
+                                email = txtEmail.Text And password = txtPass.Text,
+                                email)
+                        ),
+                        Set(DisplayErrorMessage, true),
+                        Navigate(Screen1,ScreenTransition.Cover)
+                    );
+                        Reset(txtEmail);
+                        Reset(txtPass);
+                    
+                    Checkrole.Run()
                 Text: ="Login"
                 ZIndex: =3
 

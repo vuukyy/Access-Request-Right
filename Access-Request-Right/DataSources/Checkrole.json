@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "36dd4c85-9296-45f0-9cfb-b79f339bee41",
+    "Name": "Checkrole",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "bda50fc2-a732-ee11-bdf4-6045bd57431a"
+  }
+]

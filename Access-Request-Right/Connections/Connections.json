@@ -60,6 +60,44 @@
     "dependents": [],
     "id": "3d7ade81-7aba-433b-950c-246cca39e8c5"
   },
+  "5b453f38-deeb-4a83-acbe-bc7b6a77131a": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1645/1.0.1645.3345/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "66091f8c-2b6f-416e-ab92-cc18a8e4db18": {
+          "value": "shared_commondataserviceforapps"
+        },
+        "workflowEntityId": {
+          "value": "bda50fc2-a732-ee11-bdf4-6045bd57431a"
+        },
+        "workflowName": {
+          "value": "44c48bbd-5ee4-d389-3e65-c020873512fd"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_commondataserviceforapps": {
+          "value": "66091f8c-2b6f-416e-ab92-cc18a8e4db18"
+        },
+        "workflowEntityId": {
+          "value": "bda50fc2-a732-ee11-bdf4-6045bd57431a"
+        },
+        "workflowName": {
+          "value": "44c48bbd-5ee4-d389-3e65-c020873512fd"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Checkrole"
+    ],
+    "dependencies": {
+      "shared_commondataserviceforapps": "66091f8c-2b6f-416e-ab92-cc18a8e4db18"
+    },
+    "dependents": [],
+    "id": "5b453f38-deeb-4a83-acbe-bc7b6a77131a"
+  },
   "66091f8c-2b6f-416e-ab92-cc18a8e4db18": {
     "connectionRef": {
       "displayName": "Microsoft Dataverse",
@@ -70,7 +108,8 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "3d7ade81-7aba-433b-950c-246cca39e8c5"
+      "3d7ade81-7aba-433b-950c-246cca39e8c5",
+      "5b453f38-deeb-4a83-acbe-bc7b6a77131a"
     ],
     "id": "66091f8c-2b6f-416e-ab92-cc18a8e4db18"
   },

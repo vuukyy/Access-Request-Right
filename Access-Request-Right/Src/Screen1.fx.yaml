@@ -94,6 +94,8 @@ Screen1 As screen:
                     "Gallery1 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageOverlayVariant_ver5.0'":
                         DelayItemLoading: =true
                         Items: =If(Dropdown1.SelectedText.'Role Name' = "admin", Role[@cr50a_rolename], Filter(Role, 'Role Name' = Dropdown1.SelectedText.'Role Name'))
+                        LayoutMinHeight: =287
+                        LayoutMinWidth: =320
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplatePadding: =0
                         TemplateSize: =Min(440, Self.Height - 60)
