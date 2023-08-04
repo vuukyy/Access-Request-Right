@@ -45,6 +45,10 @@ Screen1 As screen:
                 Width: =300
                 ZIndex: =2
 
+            Dropdown1 As dropdown:
+                Items: =Role[@cr50a_rolename]
+                ZIndex: =3
+
         BottomContainer1_2 As groupContainer.horizontalAutoLayoutContainer:
             Fill: =RGBA(245, 245, 245, 1)
             LayoutAlignItems: =LayoutAlignItems.Stretch
@@ -89,7 +93,7 @@ Screen1 As screen:
 
                     "Gallery1 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageOverlayVariant_ver5.0'":
                         DelayItemLoading: =true
-                        Items: =Request
+                        Items: =If(Dropdown1.SelectedText.'Role Name' = "admin", Role[@cr50a_rolename], Filter(Role, 'Role Name' = Dropdown1.SelectedText.'Role Name'))
                         LoadingSpinner: =LoadingSpinner.Data
                         TemplatePadding: =0
                         TemplateSize: =Min(440, Self.Height - 60)
@@ -125,24 +129,10 @@ Screen1 As screen:
                             PaddingLeft: =0
                             PaddingRight: =0
                             PaddingTop: =0
-                            Text: =ThisItem.'Request Name'
+                            Text: =ThisItem.'Role Name'
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Overlay1.Width - 32
                             X: =Overlay1.X + 16
                             Y: =Overlay1.Y + 16
                             ZIndex: =3
-
-                        Subtitle2 As label:
-                            Height: =Self.Size * 1.8
-                            OnSelect: =Select(Parent)
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Text: =ThisItem.'Ngày tạo'
-                            VerticalAlign: =VerticalAlign.Top
-                            Width: =Title2.Width
-                            X: =Title2.X
-                            Y: =Title2.Y + Title2.Height + 8
-                            ZIndex: =4
 
