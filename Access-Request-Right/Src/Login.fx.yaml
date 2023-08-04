@@ -38,9 +38,7 @@ Login As screen:
                 FontWeight: =FontWeight.Bold
                 Height: =100
                 Size: =35
-                Text: |-
-                    ="Hello World!
-                    "
+                Text: ="Welcome !"
                 Width: =300
                 ZIndex: =1
 
@@ -78,10 +76,13 @@ Login As screen:
                     ZIndex: =1
 
                     Label11 As label:
+                        FontWeight: =FontWeight.Semibold
                         Text: ="Email"
                         ZIndex: =1
 
                     txtEmail As text:
+                        BorderColor: =RGBA(149, 149, 149, 1)
+                        BorderThickness: =1
                         Default: =""
                         HintText: ="Enter your email"
                         ZIndex: =2
@@ -104,10 +105,13 @@ Login As screen:
                     ZIndex: =2
 
                     Label12 As label:
+                        FontWeight: =FontWeight.Semibold
                         Text: ="Password"
                         ZIndex: =1
 
                     txtPass As text:
+                        BorderColor: =RGBA(149, 149, 149, 1)
+                        BorderThickness: =1
                         Default: =""
                         HintText: ="Enter your password"
                         ZIndex: =2
